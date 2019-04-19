@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0685D53D64FBFCD5BD566D6BFC16D8D4890BA75B3179000831EF497D5A9E8C552127D3B7A147F34B0F4431B60A6492106541B0DAA0EFE3F87221E5FD0AAE6470" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="752F2058D6B739D8C7863322F6011BFC15A95D34A3C3958F3E5B1126CD7DFF14029998159C4799176F115820CE68F815F52B2897AFCC6B99DD4410A9A9F2E06B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -399,6 +399,1226 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="562" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-messagehttp-src-18.2.0.niaddon" StoragePath="ref://NI/Skyline/messageHTTP-src/18.2.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="564" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-18.2.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/18.2.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="566" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-18.5.0.niaddon" StoragePath="ref://NI/VISA/Base-src/18.5.0" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="630" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="017a10c80db0391d640460863254c6a0d5e8d5b8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\01\\017a10c80db0391d640460863254c6a0d5e8d5b8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="631" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="01aceca7378e7ce45892835907ae204260eb9a0c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\01\\01aceca7378e7ce45892835907ae204260eb9a0c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="632" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0267950578898d47d1fceba67235b859542b99a4.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\02\\0267950578898d47d1fceba67235b859542b99a4.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="633" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="028e20935211202df0aaa8446d353eac8144a6c2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\02\\028e20935211202df0aaa8446d353eac8144a6c2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="634" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0445efb32d7fa855f63e6d5cccc30866e903254e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\04\\0445efb32d7fa855f63e6d5cccc30866e903254e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="635" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="05d1e3e5ada906fc0e2446ec9afc2e90b3cf48df.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\05\\05d1e3e5ada906fc0e2446ec9afc2e90b3cf48df.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="636" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0620265d1ac5da5b970380a8c6ff3d36db030818.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\06\\0620265d1ac5da5b970380a8c6ff3d36db030818.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="637" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0701cf9f84bd05fbcb321b9ccd7d4ae76869a28e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\07\\0701cf9f84bd05fbcb321b9ccd7d4ae76869a28e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="638" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="07f512d69a2d152aba956048b291bdeb21fc7660.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\07\\07f512d69a2d152aba956048b291bdeb21fc7660.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="639" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0832e2e77081555b447777440897b9cf7b6957fd.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\08\\0832e2e77081555b447777440897b9cf7b6957fd.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="640" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="089d21387ead76a67e9d0498dbee0fad9cceb550.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\08\\089d21387ead76a67e9d0498dbee0fad9cceb550.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="641" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0904b9fdc0810a1b4d3ecd4c6157780fd7edf713.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\09\\0904b9fdc0810a1b4d3ecd4c6157780fd7edf713.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="642" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0933d47942a75629de728ca11da57af67d1e0213.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\09\\0933d47942a75629de728ca11da57af67d1e0213.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="643" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0ad0d5f64cf0c997960cfffe983f9f280c0e0d58.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\0a\\0ad0d5f64cf0c997960cfffe983f9f280c0e0d58.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="644" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0c0efea6b51d0dba1ca866623db20fe74e7b6e90.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\0c\\0c0efea6b51d0dba1ca866623db20fe74e7b6e90.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="645" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0ca95b576990023cc74cdb2f210abc32834f47c2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\0c\\0ca95b576990023cc74cdb2f210abc32834f47c2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="646" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0d7f79354ccd75d7fbc7067ebee86ab56eb9f792.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\0d\\0d7f79354ccd75d7fbc7067ebee86ab56eb9f792.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="647" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="0f6324fa6bfcbb2871a9cce3ecd7fb555ce003c3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\0f\\0f6324fa6bfcbb2871a9cce3ecd7fb555ce003c3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="648" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="10b14c3e90b3a33d42ee63e8f45fbd03b18908ce.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\10\\10b14c3e90b3a33d42ee63e8f45fbd03b18908ce.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="649" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="10e43f6c4303b7352749efc20d6a0cde30a63a56.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\10\\10e43f6c4303b7352749efc20d6a0cde30a63a56.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="650" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1155a7eab6548cb39aedf8cab8401d913415120c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\11\\1155a7eab6548cb39aedf8cab8401d913415120c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="651" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="11c51d778a048e9bbb6b5a2a9ad19dd147f9e1e9.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\11\\11c51d778a048e9bbb6b5a2a9ad19dd147f9e1e9.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="652" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1262091107ac7b21c36b5144a14d03a67517110b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\12\\1262091107ac7b21c36b5144a14d03a67517110b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="653" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="13938ef0542349dcdeb2c08506d7a2f8dac7f7df.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\13\\13938ef0542349dcdeb2c08506d7a2f8dac7f7df.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="654" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1443e6d34e19f5edebdf8e08c6cc8512425a94fc.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\14\\1443e6d34e19f5edebdf8e08c6cc8512425a94fc.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="655" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="15debb82784b822c1f6762310c90cc78f7addb66.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\15\\15debb82784b822c1f6762310c90cc78f7addb66.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="656" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="179b6799b61f5410c9c2ab42568ed8b2ca14346e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\17\\179b6799b61f5410c9c2ab42568ed8b2ca14346e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="657" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="18cfc60428a2805f5363ce38f89df43df956d94c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\18\\18cfc60428a2805f5363ce38f89df43df956d94c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="658" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1a3aaa8949aacabaddcc436c17356995220476ec.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\1a\\1a3aaa8949aacabaddcc436c17356995220476ec.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="659" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1a86618b58b76980a1a8fce0f94ef135b9aee0cc.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\1a\\1a86618b58b76980a1a8fce0f94ef135b9aee0cc.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="660" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1b3f2ee68948606a46f6c1b6310afe2ff1a03371.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\1b\\1b3f2ee68948606a46f6c1b6310afe2ff1a03371.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="661" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1ed2ae4cdde40cd3c300528e5ef1a50e8b94206c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\1e\\1ed2ae4cdde40cd3c300528e5ef1a50e8b94206c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="662" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="1fb3d6443d255f3ea51ec03743a40e07e4ad67ae.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\1f\\1fb3d6443d255f3ea51ec03743a40e07e4ad67ae.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="663" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="20860250df0ec7474daf705af73f441d1e1fa03f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\20\\20860250df0ec7474daf705af73f441d1e1fa03f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="664" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2128db0d29b8480b7e30977f8e497de50eb452fb.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\21\\2128db0d29b8480b7e30977f8e497de50eb452fb.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="665" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="23b145dd5820440e9b4afc539b8a46c65e8acced.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\23\\23b145dd5820440e9b4afc539b8a46c65e8acced.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="666" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="25beae2806570a87896fad4a74d6eed0c08f3a2f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\25\\25beae2806570a87896fad4a74d6eed0c08f3a2f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="667" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2b40f2c87ffa01c36ed0ae89bad622549e98211d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2b\\2b40f2c87ffa01c36ed0ae89bad622549e98211d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="668" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2bd0b4a53e1929f926c47ebd75eee49fd82cfff4.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2b\\2bd0b4a53e1929f926c47ebd75eee49fd82cfff4.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="669" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2d34975755f350d2d2ece13681976df2c9d18f39.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2d\\2d34975755f350d2d2ece13681976df2c9d18f39.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="670" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2ea63e020d3749b0b9077feaddb069b6abc5f4ee.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2e\\2ea63e020d3749b0b9077feaddb069b6abc5f4ee.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="671" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2f2d6053ceedb0f0084c10d373efba5ad6a51d70.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2f\\2f2d6053ceedb0f0084c10d373efba5ad6a51d70.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="672" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="2f85d4f48ba223e0d85d8953006f47f052399937.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\2f\\2f85d4f48ba223e0d85d8953006f47f052399937.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="673" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="303a850c8993e31b9ef08f4bab262d7ceafc204e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\30\\303a850c8993e31b9ef08f4bab262d7ceafc204e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="674" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="305052b988fa45f459c3899800f1237fb850af47.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\30\\305052b988fa45f459c3899800f1237fb850af47.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="675" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="306e10c7af9622f08f9a445711b858330bad355a.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\30\\306e10c7af9622f08f9a445711b858330bad355a.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="676" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="31c8bfa116955b2176733b459f29e8dc4564d930.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\31\\31c8bfa116955b2176733b459f29e8dc4564d930.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="677" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="33cfacd88f9c7b8f765d0a32dab28bbace249357.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\33\\33cfacd88f9c7b8f765d0a32dab28bbace249357.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="678" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="36ec9bdf2e033dbd84c2a71d0cf10a58d82302b0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\36\\36ec9bdf2e033dbd84c2a71d0cf10a58d82302b0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="679" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="380ba13be89ab4c2977c0ce3c34c06e08c8b50c6.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\38\\380ba13be89ab4c2977c0ce3c34c06e08c8b50c6.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="680" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3850a89ed775cfca09b9e3bbae9f835dc7c449f2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\38\\3850a89ed775cfca09b9e3bbae9f835dc7c449f2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="681" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="39375cd0d188d069e3b98d49ed0bb20638fedfd5.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\39\\39375cd0d188d069e3b98d49ed0bb20638fedfd5.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="682" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="399146c81f92d546d68dd157dbecbfd0fd38417e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\39\\399146c81f92d546d68dd157dbecbfd0fd38417e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="683" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3b33fd83b483bbd2007cf7aab5140c1894515b86.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3b\\3b33fd83b483bbd2007cf7aab5140c1894515b86.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="684" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3bff9476ff64caf5e0c4008ad89b324df5219765.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3b\\3bff9476ff64caf5e0c4008ad89b324df5219765.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="685" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3c3acf80f235bb9295c8c501253ff4d2f5cc847a.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3c\\3c3acf80f235bb9295c8c501253ff4d2f5cc847a.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="686" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3ce6259b0f13d0c666c11cfbb4202d52ee5a5842.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3c\\3ce6259b0f13d0c666c11cfbb4202d52ee5a5842.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="687" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3df45e1f617bcab498c11982d8de2c3a1441b7c2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3d\\3df45e1f617bcab498c11982d8de2c3a1441b7c2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="688" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3e5a20e8fee7af15eb67a6a7c17e8a5eec014402.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3e\\3e5a20e8fee7af15eb67a6a7c17e8a5eec014402.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="689" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="3ef39d3242180a5804294da51f6d00c34d808a79.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\3e\\3ef39d3242180a5804294da51f6d00c34d808a79.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="690" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="41a47390fb265345cf579c4385ad1ba3cff5f5b1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\41\\41a47390fb265345cf579c4385ad1ba3cff5f5b1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="691" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="43c80adeae05de06fe9a0fa1c4b3e9914705701c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\43\\43c80adeae05de06fe9a0fa1c4b3e9914705701c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="692" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="466cbb2b6d65a713549e984864aba8bb99529b7e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\46\\466cbb2b6d65a713549e984864aba8bb99529b7e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="693" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="4a313eb93b959cc4154c684b915b0a31ddb68d84.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\4a\\4a313eb93b959cc4154c684b915b0a31ddb68d84.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="694" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="4b08033cb720a58d3ce2d307e1dd519a97e78e13.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\4b\\4b08033cb720a58d3ce2d307e1dd519a97e78e13.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="695" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="4db98a49185369d49e8a455c9b222b1ee1abdfc8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\4d\\4db98a49185369d49e8a455c9b222b1ee1abdfc8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="696" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="4f60b086bcdd040bdea1e943dd51747319eabacc.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\4f\\4f60b086bcdd040bdea1e943dd51747319eabacc.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="697" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="4fb553753f4093fb9717c88b6ae5b046eea344ce.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\4f\\4fb553753f4093fb9717c88b6ae5b046eea344ce.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="698" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="536c94ce08e2671d1f4df9f68e826957fbe9a4aa.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\53\\536c94ce08e2671d1f4df9f68e826957fbe9a4aa.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="699" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="541060dfde8dfce163d63b64a6b4b970809f852c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\54\\541060dfde8dfce163d63b64a6b4b970809f852c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="700" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="55b5c0a123337774c4fdc555d6d4620f128c6012.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\55\\55b5c0a123337774c4fdc555d6d4620f128c6012.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="701" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="59edf7ff4d5b0b0402ff7ce407f6be25c3504d38.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\59\\59edf7ff4d5b0b0402ff7ce407f6be25c3504d38.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="702" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5ab3a4d44bcaee495e97a0a4880d0c0d29506836.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5a\\5ab3a4d44bcaee495e97a0a4880d0c0d29506836.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="703" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5ad2016d6f500954f571b2ca4ff059cf50efaf93.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5a\\5ad2016d6f500954f571b2ca4ff059cf50efaf93.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="704" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5afdf7f128eefe9e635df525fcf117b555582701.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5a\\5afdf7f128eefe9e635df525fcf117b555582701.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="705" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5bef191bcfb5bfc413907ef4453099f3a5aa13d2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5b\\5bef191bcfb5bfc413907ef4453099f3a5aa13d2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="706" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5bf0fe1fa960a1fede349eac019c96d76ba5d2b7.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5b\\5bf0fe1fa960a1fede349eac019c96d76ba5d2b7.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="707" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5cde2816d66dfcc355c4b1bddd48b0bca1373df2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5c\\5cde2816d66dfcc355c4b1bddd48b0bca1373df2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="708" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5d7d96e8535f3acabf89829c06387892c41607c1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5d\\5d7d96e8535f3acabf89829c06387892c41607c1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="709" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5dfc5e10319162fd2cfc476351cf632b22010745.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5d\\5dfc5e10319162fd2cfc476351cf632b22010745.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="710" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5f220ff23a94c56537632ef97de04be6e27e29be.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5f\\5f220ff23a94c56537632ef97de04be6e27e29be.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="711" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="5fcfe55693f6678b4f02efc18b37e2a0a89c29e2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\5f\\5fcfe55693f6678b4f02efc18b37e2a0a89c29e2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="712" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="607c25c3fc0b85cac5b7c357586bc205279327ec.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\60\\607c25c3fc0b85cac5b7c357586bc205279327ec.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="713" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="638dd249a0a5005564927a4992ba71e2b4b2280c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\63\\638dd249a0a5005564927a4992ba71e2b4b2280c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="714" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="651fbf43c734049f25bed9e93836fce4650bfe5c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\65\\651fbf43c734049f25bed9e93836fce4650bfe5c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="715" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6555000972bc47245e0b971982899e26ee81b56e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\65\\6555000972bc47245e0b971982899e26ee81b56e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="716" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="65c62c0c32f8191c26bcd2af21a555dddaf75284.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\65\\65c62c0c32f8191c26bcd2af21a555dddaf75284.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="717" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="65fa4246236d82590858e3fccd1eb44fcaa88365.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\65\\65fa4246236d82590858e3fccd1eb44fcaa88365.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="718" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="68302fed83bafb85563d02ddd70aba1632ab4922.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\68\\68302fed83bafb85563d02ddd70aba1632ab4922.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="719" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6844210e1b053536df1607fee936b67b6957da95.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\68\\6844210e1b053536df1607fee936b67b6957da95.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="720" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6becea27f4066c25df473f33423e7d18451ae13d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6b\\6becea27f4066c25df473f33423e7d18451ae13d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="721" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6c3ddc9773eb3b5ef1785c30f5b8ab8bfac7dcae.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6c\\6c3ddc9773eb3b5ef1785c30f5b8ab8bfac7dcae.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="722" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6c453a65b3f5e0be030f0f93ce51e5bbe4c6029f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6c\\6c453a65b3f5e0be030f0f93ce51e5bbe4c6029f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="723" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6c6caba3adaf94e5435a9560ea347b352cff38a5.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6c\\6c6caba3adaf94e5435a9560ea347b352cff38a5.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="724" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6c8211d52836748309a45c56d2d3a7327c8a449d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6c\\6c8211d52836748309a45c56d2d3a7327c8a449d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="725" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6c986fd5c26fdb7874e5d3704b6ac446dabaa681.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6c\\6c986fd5c26fdb7874e5d3704b6ac446dabaa681.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="726" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6e41218b16ebb06d90f3f9c3ec7507f8bfced026.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6e\\6e41218b16ebb06d90f3f9c3ec7507f8bfced026.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="727" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6e97d4a07ed337128dd16278673b64839d68831d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6e\\6e97d4a07ed337128dd16278673b64839d68831d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="728" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6f05c076a034dcb0ec5c12032d8f25fadedc497b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6f\\6f05c076a034dcb0ec5c12032d8f25fadedc497b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="729" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6f2ffc111fafc117b397acc14116ca1b01fa353c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6f\\6f2ffc111fafc117b397acc14116ca1b01fa353c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="730" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="6f8526231a237c1c19a9b540e12c8ee270a82e93.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\6f\\6f8526231a237c1c19a9b540e12c8ee270a82e93.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="731" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="70ece8e1e6bf3aabb4fc0df292fd398f874ebda6.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\70\\70ece8e1e6bf3aabb4fc0df292fd398f874ebda6.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="732" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="72cf9d5411c02675218e40ec54abac4e64a22a5a.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\72\\72cf9d5411c02675218e40ec54abac4e64a22a5a.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="733" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="72ec5d89a24092ea4fa48731081972926d1fd74b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\72\\72ec5d89a24092ea4fa48731081972926d1fd74b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="734" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="74159c1d272626c7f8a614f61b55177d61f7764e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\74\\74159c1d272626c7f8a614f61b55177d61f7764e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="735" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="74c8f725cceaf4857e1e4960e8e9e943fb9c97d2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\74\\74c8f725cceaf4857e1e4960e8e9e943fb9c97d2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="736" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="768e554f9683f1799fdbe476bc8c93cdf8494bd6.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\76\\768e554f9683f1799fdbe476bc8c93cdf8494bd6.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="737" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="774a4ef7be3bdb4f0b9f2a7b9ca592efb9997037.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\77\\774a4ef7be3bdb4f0b9f2a7b9ca592efb9997037.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="738" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="78422a42764ee499a35d1041b75c7d9ad094e925.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\78\\78422a42764ee499a35d1041b75c7d9ad094e925.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="739" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="79d9d3b7f9094e825969a41644949cd6bd0d4780.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\79\\79d9d3b7f9094e825969a41644949cd6bd0d4780.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="740" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="7a17740b52a190fc8cd2b6b5931d7d20fe5a28d3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\7a\\7a17740b52a190fc8cd2b6b5931d7d20fe5a28d3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="741" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="7bc2613afff6f9d1ea5ba8d9eb88c6207d0e2b9b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\7b\\7bc2613afff6f9d1ea5ba8d9eb88c6207d0e2b9b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="742" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="807fcccd15115b2ddb9e5b58d5fe0a056ae30b55.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\80\\807fcccd15115b2ddb9e5b58d5fe0a056ae30b55.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="743" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="83486607c9f6885b9acab8c7cf6a6eb33978e349.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\83\\83486607c9f6885b9acab8c7cf6a6eb33978e349.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="744" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="837fc0e764a70cf1ab20b79f64e7485352e23ee4.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\83\\837fc0e764a70cf1ab20b79f64e7485352e23ee4.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="745" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8409096fbcb9b3f7b043daa50a00b4b6c2730266.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\84\\8409096fbcb9b3f7b043daa50a00b4b6c2730266.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="746" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="84793cd2f0993e719a22b8a3152e37fc9def3a36.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\84\\84793cd2f0993e719a22b8a3152e37fc9def3a36.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="747" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8530be797fe7d610be41298866690c9c2dd4b1a1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\85\\8530be797fe7d610be41298866690c9c2dd4b1a1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="748" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="859531843a6988507590f1dd500bd6ab7e93cc89.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\85\\859531843a6988507590f1dd500bd6ab7e93cc89.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="749" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="86a878b1e60d056c33126fc195a7bc1ae8501af3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\86\\86a878b1e60d056c33126fc195a7bc1ae8501af3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="750" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="87c627d676e54fdf7661581d452be4d3d378496a.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\87\\87c627d676e54fdf7661581d452be4d3d378496a.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="751" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8ccdc098e16a49b367301efb7b69be76f131a5ed.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8c\\8ccdc098e16a49b367301efb7b69be76f131a5ed.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="752" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8ce61b53610c234a9f17b99d3e3a7cbfdd4007c8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8c\\8ce61b53610c234a9f17b99d3e3a7cbfdd4007c8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="753" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8da05bb8f59e5428f274347537feac8586c61e6b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8d\\8da05bb8f59e5428f274347537feac8586c61e6b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="754" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8dfa10ef2b956449e6f9700f63cb0cc4ac1bd4da.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8d\\8dfa10ef2b956449e6f9700f63cb0cc4ac1bd4da.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="755" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8ef657679fbe80bae180f04bfa11e80355808e3f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8e\\8ef657679fbe80bae180f04bfa11e80355808e3f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="756" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="8f03c3dee0cbbc60b59f794686ed18a36168d95b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\8f\\8f03c3dee0cbbc60b59f794686ed18a36168d95b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="757" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9085235fd62bad88d28c813ad6d73bf07019f2a8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\90\\9085235fd62bad88d28c813ad6d73bf07019f2a8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="758" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="91fc0f708ca2846465d6a937ef9cf625a4a95856.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\91\\91fc0f708ca2846465d6a937ef9cf625a4a95856.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="759" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="92e6f8d655f3248440c36f0cd96dcc46dc559725.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\92\\92e6f8d655f3248440c36f0cd96dcc46dc559725.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="760" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9547c67b7165966300dfbc9dedc1b03f8b615740.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\95\\9547c67b7165966300dfbc9dedc1b03f8b615740.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="761" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="972556c00c4152b1a62f845d48b71e5c76c6c236.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\97\\972556c00c4152b1a62f845d48b71e5c76c6c236.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="762" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9840e6f0d328ef398aa3c005605c51cb2b9a647c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\98\\9840e6f0d328ef398aa3c005605c51cb2b9a647c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="763" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="99e4775dd9758804c46e9aa2ae1c4779e96649a3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\99\\99e4775dd9758804c46e9aa2ae1c4779e96649a3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="764" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9a8f80acd69af84bcf38cf43119057361556299c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9a\\9a8f80acd69af84bcf38cf43119057361556299c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="765" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9c0814e8a303a83f3df7603cdc69cf8627e464da.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9c\\9c0814e8a303a83f3df7603cdc69cf8627e464da.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="766" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9c4488aad6031137e9d035c799af9d133ff42546.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9c\\9c4488aad6031137e9d035c799af9d133ff42546.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="767" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9d4cd58c65f9b6f0ac2f111aec8262efdd9e5105.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9d\\9d4cd58c65f9b6f0ac2f111aec8262efdd9e5105.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="768" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9d6c2f2b61b61ee25903a11643df2f5357e1a6a6.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9d\\9d6c2f2b61b61ee25903a11643df2f5357e1a6a6.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="769" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9d95f645a1a6dd9a4bd35db438eac82f8f63abfa.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9d\\9d95f645a1a6dd9a4bd35db438eac82f8f63abfa.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="770" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="9f083fbb71659c36a714026cad29c8b8e0d7c3ef.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\9f\\9f083fbb71659c36a714026cad29c8b8e0d7c3ef.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="771" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a2306f077f08b051d09594d1ce7dded8077d33d4.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a2\\a2306f077f08b051d09594d1ce7dded8077d33d4.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="772" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a580fbeed5ba513fba6cfbdf7168e15fe2f79ebc.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a5\\a580fbeed5ba513fba6cfbdf7168e15fe2f79ebc.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="773" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a592e4699ec1ef9dcb0e5fc6c2ec4e5d0e9a8133.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a5\\a592e4699ec1ef9dcb0e5fc6c2ec4e5d0e9a8133.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="774" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a68c34ee8723a48e2544b27973a71c08e514f07b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a6\\a68c34ee8723a48e2544b27973a71c08e514f07b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="775" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a68cb19094226885a3c063731dff08d6b1615755.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a6\\a68cb19094226885a3c063731dff08d6b1615755.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="776" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a7ea7ee601bd10b9a71c6383536dcbedde601043.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a7\\a7ea7ee601bd10b9a71c6383536dcbedde601043.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="777" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a8389b2b5c17ef033fc470cc53cb62c253abe4e3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a8\\a8389b2b5c17ef033fc470cc53cb62c253abe4e3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="778" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a84ebdcfe2f6f117a50d5c941701b2b83f5c81e1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a8\\a84ebdcfe2f6f117a50d5c941701b2b83f5c81e1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="779" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a8d97c7abbd853c1ce2ae6471f5292d98202e593.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a8\\a8d97c7abbd853c1ce2ae6471f5292d98202e593.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="780" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="a9269b8e79934a762da17cf7d5bdd89630abc76a.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\a9\\a9269b8e79934a762da17cf7d5bdd89630abc76a.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="781" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ab2d6bebfa093f0cd3b59a892b9118cf2e9bed81.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ab\\ab2d6bebfa093f0cd3b59a892b9118cf2e9bed81.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="782" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="aca978ea02a016b034038330a8b2a6213c24e4c9.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ac\\aca978ea02a016b034038330a8b2a6213c24e4c9.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="783" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ada8bb207a7952d127fd543287451f5c7fbff8e8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ad\\ada8bb207a7952d127fd543287451f5c7fbff8e8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="784" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ade39a088533505ab0ea1c8f768166ede461d5be.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ad\\ade39a088533505ab0ea1c8f768166ede461d5be.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="785" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="afba6c65c92efba49ebaedfbc39331af0a15dd0f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\af\\afba6c65c92efba49ebaedfbc39331af0a15dd0f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="786" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b23bdabcd16320ae18678374fca9fad5ba685e41.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b2\\b23bdabcd16320ae18678374fca9fad5ba685e41.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="787" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b31c0b7387ab25191b55e64b62b22a6a97ff3f9f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b3\\b31c0b7387ab25191b55e64b62b22a6a97ff3f9f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="788" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b3c662707c3eebd9c58d6a5c33a8e98e645a6ae8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b3\\b3c662707c3eebd9c58d6a5c33a8e98e645a6ae8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="789" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b3fecadadb84a66b74f3aac5a1aafcd2b93ba6df.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b3\\b3fecadadb84a66b74f3aac5a1aafcd2b93ba6df.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="790" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b43e4469a1fe1a8999e908d6faa969886e4730b7.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b4\\b43e4469a1fe1a8999e908d6faa969886e4730b7.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="791" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b53041d323f08602ec2307ddd08cb68784e997e4.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b5\\b53041d323f08602ec2307ddd08cb68784e997e4.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="792" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b559e20d1d35db32ba8ee3b55c2d7010f76162b1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b5\\b559e20d1d35db32ba8ee3b55c2d7010f76162b1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="793" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b5b455fee5835dd185c9161c365ac155b5f67052.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b5\\b5b455fee5835dd185c9161c365ac155b5f67052.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="794" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b6c121b11ce9219ae9750aa11190468288b8b27c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b6\\b6c121b11ce9219ae9750aa11190468288b8b27c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="795" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="b90f238d3bee03c912ec45fa441884244b78ceed.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\b9\\b90f238d3bee03c912ec45fa441884244b78ceed.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="796" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="be5b9433dc4d1942654870ed2e4764e9cecc7ceb.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\be\\be5b9433dc4d1942654870ed2e4764e9cecc7ceb.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="797" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="be76f2621e1cb994705c26d99e9549867c594f33.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\be\\be76f2621e1cb994705c26d99e9549867c594f33.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="798" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="be80b6b2f357cde727bae8825bdf4f012a34ce8f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\be\\be80b6b2f357cde727bae8825bdf4f012a34ce8f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="799" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="beb56e45fddfabe07a28ad11bfd993e045e76eb0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\be\\beb56e45fddfabe07a28ad11bfd993e045e76eb0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="800" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="bf9ec99b3933a494c8ac28eba480fdd98b0908e8.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\bf\\bf9ec99b3933a494c8ac28eba480fdd98b0908e8.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="801" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c0dd684afc2f9f265dfb9c56b4d47809d9a59518.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c0\\c0dd684afc2f9f265dfb9c56b4d47809d9a59518.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="802" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c27dfafbd7f4a79770fe373c88632aaf49f86b00.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c2\\c27dfafbd7f4a79770fe373c88632aaf49f86b00.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="803" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c2c623b4b8ea99435fe4e8ba5d960787c6fee3c0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c2\\c2c623b4b8ea99435fe4e8ba5d960787c6fee3c0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="804" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c3f2c680b15bca169c1b91df40dcbb3e18364e91.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c3\\c3f2c680b15bca169c1b91df40dcbb3e18364e91.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="805" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c6590c7a1e30644c0825961148e0d046041d4cca.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c6\\c6590c7a1e30644c0825961148e0d046041d4cca.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="806" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c65c9f48a7c35796be8056bf30b3f11647e74f25.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c6\\c65c9f48a7c35796be8056bf30b3f11647e74f25.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="807" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c6ae03081d569b2a77a5863506f0d8a581425f3b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c6\\c6ae03081d569b2a77a5863506f0d8a581425f3b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="808" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c7687a8293b452e1d27c463decb97f2896e08d76.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c7\\c7687a8293b452e1d27c463decb97f2896e08d76.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="809" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c7b6ca60ee558616c3401bff2303d4cc6c90b6cb.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c7\\c7b6ca60ee558616c3401bff2303d4cc6c90b6cb.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="810" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c7e27b3a4c30d95f76a3f8267d56f1d8cee3c82e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c7\\c7e27b3a4c30d95f76a3f8267d56f1d8cee3c82e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="811" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c922023245ddb940faf42220f62379e816a6cda7.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c9\\c922023245ddb940faf42220f62379e816a6cda7.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="812" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="c97dd93fa0f0d90ed3bc27b9af3cd925ddb6dac5.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\c9\\c97dd93fa0f0d90ed3bc27b9af3cd925ddb6dac5.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="813" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ca497a846802e52352bdd69ec6a2e088def84085.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ca\\ca497a846802e52352bdd69ec6a2e088def84085.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="814" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="cb24bb110ca575a91844d0ae17f6bc31a7885cd3.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\cb\\cb24bb110ca575a91844d0ae17f6bc31a7885cd3.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="815" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="cbb7219d65ecc5e89b256b05ee138dae77281082.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\cb\\cbb7219d65ecc5e89b256b05ee138dae77281082.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="816" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="cc2b40eaae5c023528518d2c47999e4c0ce86a37.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\cc\\cc2b40eaae5c023528518d2c47999e4c0ce86a37.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="817" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ce268c8536ca926ae644848c000a21b925156540.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ce\\ce268c8536ca926ae644848c000a21b925156540.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="818" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ce7a4da48454c6e2a70c6555d73ab2ae51f9509b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ce\\ce7a4da48454c6e2a70c6555d73ab2ae51f9509b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="819" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ceca296c0a2b82e8949ce8515a1d047a2e5fba1d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ce\\ceca296c0a2b82e8949ce8515a1d047a2e5fba1d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="820" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d0a1e5083fa98f2fc4bd79cb15af1b3f8019a2f0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d0\\d0a1e5083fa98f2fc4bd79cb15af1b3f8019a2f0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="821" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d0c0c79a70bc8fabb9bf5c57ab010a209bee8d37.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d0\\d0c0c79a70bc8fabb9bf5c57ab010a209bee8d37.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="822" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d0d9d7ababc9d89a6acb94d8032fcf1dd270418c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d0\\d0d9d7ababc9d89a6acb94d8032fcf1dd270418c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="823" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d106aae8676b7295d402e5379d6802a109d825f9.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d1\\d106aae8676b7295d402e5379d6802a109d825f9.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="824" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d48904c2cb8bd17db355b7fd787686e3f1167eba.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d4\\d48904c2cb8bd17db355b7fd787686e3f1167eba.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="825" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d61bcc1c4f134b292d44c309fa7a7a5734d51226.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d6\\d61bcc1c4f134b292d44c309fa7a7a5734d51226.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="826" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d697934734654e886759dfdb2f8a57d2922b7387.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d6\\d697934734654e886759dfdb2f8a57d2922b7387.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="827" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d7109026b385ac7427b6f19b3a73f1bc27577658.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d7\\d7109026b385ac7427b6f19b3a73f1bc27577658.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="828" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d84038a64133b83d8a2629a32bbadcc3a83af332.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d8\\d84038a64133b83d8a2629a32bbadcc3a83af332.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="829" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="d8e6fbffd3131fa0176a01eb3aa6759833f0bdbd.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\d8\\d8e6fbffd3131fa0176a01eb3aa6759833f0bdbd.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="830" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="db29b9c374f97f2e5a0ce24484957e9aed8be185.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\db\\db29b9c374f97f2e5a0ce24484957e9aed8be185.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="831" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="db54aa83364ac955328b6ad6b2d53d59e531f4b6.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\db\\db54aa83364ac955328b6ad6b2d53d59e531f4b6.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="832" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="dbea42f9cf75967743bc30efaa39f629a32701ab.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\db\\dbea42f9cf75967743bc30efaa39f629a32701ab.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="833" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="dca78e6ef12b8110c5cd338cdb3aea20f416d87b.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\dc\\dca78e6ef12b8110c5cd338cdb3aea20f416d87b.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="834" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="dd485934aab014b6329a2a467e5f18cb667168f1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\dd\\dd485934aab014b6329a2a467e5f18cb667168f1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="835" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="dd9508b02293c59b43b5d584514c64f8be5eb627.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\dd\\dd9508b02293c59b43b5d584514c64f8be5eb627.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="836" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ddd064668539e86b17c9a6d6e97d711502176e80.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\dd\\ddd064668539e86b17c9a6d6e97d711502176e80.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="837" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="de61638cf697e70bb32f35c75a772dcf3701124d.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\de\\de61638cf697e70bb32f35c75a772dcf3701124d.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="838" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="de647e56d6f7102df18d07bdaf3b57bded07a385.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\de\\de647e56d6f7102df18d07bdaf3b57bded07a385.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="839" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="df472e8e1eb9911d19c5d6ea554e082c2fb5d058.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\df\\df472e8e1eb9911d19c5d6ea554e082c2fb5d058.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="840" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e27323d75aa61d86a916a9ba9dd5b6842ddaf9c1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e2\\e27323d75aa61d86a916a9ba9dd5b6842ddaf9c1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="841" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e3667e9437a8566c90b17cb94e700facb6239ce1.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e3\\e3667e9437a8566c90b17cb94e700facb6239ce1.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="842" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e39b9d086f99904d4c49b6e3a30afb2de8f303ab.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e3\\e39b9d086f99904d4c49b6e3a30afb2de8f303ab.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="843" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e413ed933e70a37d831a3210092a0a438bc1c11f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e4\\e413ed933e70a37d831a3210092a0a438bc1c11f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="844" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e44d6fd691ec2b5548b1113ed59ee0874a940f12.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e4\\e44d6fd691ec2b5548b1113ed59ee0874a940f12.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="845" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e51e3198567119163d2c5c0c02dd49977628b887.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e5\\e51e3198567119163d2c5c0c02dd49977628b887.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="846" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e7141612f7779dbe003da7e219f18524e367bfb5.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e7\\e7141612f7779dbe003da7e219f18524e367bfb5.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="847" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e79985b37f21b83f46a8dced9f1b39ae974db480.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e7\\e79985b37f21b83f46a8dced9f1b39ae974db480.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="848" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e8078fabe21c61e224b9c432d1066b1e6b894f54.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e8\\e8078fabe21c61e224b9c432d1066b1e6b894f54.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="849" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e95246bc2e7dfb3be14fa7bc08e09e64095d4e09.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e9\\e95246bc2e7dfb3be14fa7bc08e09e64095d4e09.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="850" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="e9ef7443dd25143557e083f1089a7035d8106dbf.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\e9\\e9ef7443dd25143557e083f1089a7035d8106dbf.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="851" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ea8ede899fcf2e457337f26e6ce653c6e3e7210f.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ea\\ea8ede899fcf2e457337f26e6ce653c6e3e7210f.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="852" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="eaa9f2e5f9d23e5ad58a5dc409fb325e75aeeacf.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ea\\eaa9f2e5f9d23e5ad58a5dc409fb325e75aeeacf.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="853" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="eb2caeac5c665518d716fbc2eea86a12ff1a3062.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\eb\\eb2caeac5c665518d716fbc2eea86a12ff1a3062.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="854" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ed07dba9d34d522d98d08f062c3866da7c5cc8d9.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ed\\ed07dba9d34d522d98d08f062c3866da7c5cc8d9.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="855" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ef5019f0c88a02e9c6cf4f591780db14882bf6ab.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ef\\ef5019f0c88a02e9c6cf4f591780db14882bf6ab.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="856" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="efcd24a2ba6606448488e91f73dddc7d4b467238.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\ef\\efcd24a2ba6606448488e91f73dddc7d4b467238.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="857" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f0753e2109528ccedd8b7a5688c8e28b5ddf5b56.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f0\\f0753e2109528ccedd8b7a5688c8e28b5ddf5b56.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="858" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f0ca39d02f0f29ccfe385da4b75e4f9d6831c308.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f0\\f0ca39d02f0f29ccfe385da4b75e4f9d6831c308.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="859" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f1d56731a5751230d8b42393b42025342f3ec098.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f1\\f1d56731a5751230d8b42393b42025342f3ec098.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="860" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f1daadbd291c5c8a7230fbeeeb831fd89dbe171c.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f1\\f1daadbd291c5c8a7230fbeeeb831fd89dbe171c.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="861" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f29159c1b2cb51f4b59c64c43bcd85f87da58b25.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f2\\f29159c1b2cb51f4b59c64c43bcd85f87da58b25.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="862" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f2ee776188c667d12a9f0cca8c611d2a5bb92041.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f2\\f2ee776188c667d12a9f0cca8c611d2a5bb92041.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="863" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f3916d7a8c7c02a2735e4a21227e669e4c308de2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f3\\f3916d7a8c7c02a2735e4a21227e669e4c308de2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="864" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f51371577d8d65594de0a28d37f9a9f03d01103e.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f5\\f51371577d8d65594de0a28d37f9a9f03d01103e.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="865" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f5ec8c1877fef0561dd8c3d70e1af5edd5315ca0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f5\\f5ec8c1877fef0561dd8c3d70e1af5edd5315ca0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="866" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f7bfa542d1d96137a8b8c7e8b3d2c5d9f38e7a47.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f7\\f7bfa542d1d96137a8b8c7e8b3d2c5d9f38e7a47.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="867" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f805caf6b92f5e7280f7eed600c724235d4705a0.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f8\\f805caf6b92f5e7280f7eed600c724235d4705a0.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="868" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="f93d38975e4a015e4ffb4e0259c319a7039799c2.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\f9\\f93d38975e4a015e4ffb4e0259c319a7039799c2.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="869" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="fab34faa75d465c5662372983306126c07dc91de.svn-base">
+				<ExternalFile>
+					<p.StoragePath>".svn\\pristine\\fa\\fab34faa75d465c5662372983306126c07dc91de.svn-base"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="870" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="entries">
+				<ExternalFile>
+					<p.StoragePath>".svn\\entries"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="871" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="format">
+				<ExternalFile>
+					<p.StoragePath>".svn\\format"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="872" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="wc.db">
+				<ExternalFile>
+					<p.StoragePath>".svn\\wc.db"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="873" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="wc.db-journal">
+				<ExternalFile>
+					<p.StoragePath>".svn\\wc.db-journal"</p.StoragePath>
+				</ExternalFile>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
