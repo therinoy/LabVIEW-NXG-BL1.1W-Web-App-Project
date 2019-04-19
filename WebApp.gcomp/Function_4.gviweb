@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="DA774A8605C82AF5AE7ECEBD64602BFE5FE9F60C16220C46209010518DFD1E4AB64BDD04FB615E61DE1260E3ED48BA03D248457B5551E181BA3E7F4FDA3BA423" Timestamp="1D4F684B36FE556" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.2.49804" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Function_4" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="28" Id="29" Label="32">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="29" Bounds="45 0 30 15" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Home1_Image</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="33" Id="34" Label="37">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="34" Bounds="-35 0 30 15" Id="37" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Main Control</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="326" Id="327" Label="330">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="327" Bounds="45 0 30 15" Id="330" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>home2 Image</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="331" Id="332" Label="335">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="332" Bounds="-35 0 30 15" Id="335" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>home2 Control</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="620 435 40 15" DataItem="154" Id="155" Label="158">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="155" Bounds="665 435 63 14" Id="158" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>time image</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="590" Id="591" Label="594">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="591" Bounds="45 0 30 15" Id="594" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>continue switch</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<WhileLoop Bounds="-55 95 1130 560" DiagramId="340" Id="339">
+				<LoopIteration Bounds="5 530 15 15" Id="341" />
+				<LoopCondition Bounds="1100 520 15 15" Id="342" />
+				<Literal Bounds="10 105 300 15" DataType="String" Id="343" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>http://127.0.0.1:8080/BL11WebService/XASPage</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<Literal Bounds="1050 520 25 15" DataType="Boolean" Id="344" Label="346" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>True</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<Wire Id="345" Joints="N(344:Out)|(1075,525) N(342:Input)|(1100,525)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="344" Bounds="1050 502 30 15" Id="346" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>stop</p.Text>
+				</NodeLabel>
+				<Wait Bounds="1075 470 40 40" Id="347" />
+				<Literal Bounds="1025 485 40 15" DataType="UInt32" Id="348" Label="350" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>50</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<Wire Id="349" Joints="N(348:Out)|(1065,490) N(347:time to wait)|(1075,490)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="348" Bounds="990 485 30 15" Id="350" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
+				</NodeLabel>
+				<MethodCall Bounds="190 150 40 40" Id="351" ResolveFailedHint="GET.gvi, Package: (LabVIEW NXG HTTP Library Files, Version: 3.0.0)" Signature="@79364f1f80d7409e839f2d9883f7530b" Target="NI::HTTP::GET.gvi" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="B0" Desc="timeout" />
+							<Parameter Id="L0" Desc="client handle" />
+							<Parameter Id="L1" Desc="url" />
+							<Parameter Id="L3" Desc="error in" />
+							<Parameter Id="T0" Desc="output file" />
+							<Parameter Id="B1" Desc="status code" />
+							<Parameter Id="R0" Desc="client handle out" />
+							<Parameter Id="R1" Desc="headers" />
+							<Parameter Id="R2" Desc="body" />
+							<Parameter Id="R3" Desc="error out" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="Int32" Direction="Input" Hotspot="15 40" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Path" Direction="Input" Hotspot="15 0" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="UInt32" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<Wire Id="352" Joints="N(343:Out)|(310,110) h(5) v(20) h(-135) v(35) N(351:L1)|(190,165)" xmlns="http://www.ni.com/PlatformFramework" />
+				<UnflattenFromJSON Bounds="260 170 40 40" Id="353" />
+				<Wire Id="354" Joints="N(351:R2)|(230,175) N(353:JSON string)|(260,175)" xmlns="http://www.ni.com/PlatformFramework" />
+				<ClusterLiteral Bounds="248 180 12 9" DataType="@411ba02a22714b4ca714fd2c84666856" Id="355" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>
+						<Cluster>
+							<Field1>False</Field1>
+							<Field2>False</Field2>
+							<Field3>True</Field3>
+							<Field4>True</Field4>
+							<Field5>0</Field5>
+							<Field6>0</Field6>
+							<Field7>0</Field7>
+							<Field8>0</Field8>
+							<Field9>0</Field9>
+							<Field10>0</Field10>
+							<Field11>0</Field11>
+							<Field12>0</Field12>
+							<Field13>0</Field13>
+							<Field14>0</Field14>
+							<Field15>0x0</Field15>
+							<Field16>0x0</Field16>
+							<Field17>0x0</Field17>
+							<Field18>0x0</Field18>
+							<Field19>0x0</Field19>
+							<Field20>0x0</Field20>
+							<Field21>0x0</Field21>
+							<Field22>0x0</Field22>
+							<Field23>0x0</Field23>
+							<Field24>""</Field24>
+							<Field25>""</Field25>
+							<Field26>""</Field26>
+							<Field27>""</Field27>
+							<Field28>""</Field28>
+						</Cluster>
+					</p.Data>
+					<ClusterBehavior />
+					<Literal Bounds="5 25 15 15" DataType="Boolean" Id="376" Label="380">
+						<p.Data>False</p.Data>
+						<BooleanBehavior />
+					</Literal>
+					<Literal Bounds="5 60 15 15" DataType="Boolean" Id="377" Label="381">
+						<p.Data>False</p.Data>
+						<BooleanBehavior />
+					</Literal>
+					<Literal Bounds="5 95 15 15" DataType="Boolean" Id="378" Label="382">
+						<p.Data>True</p.Data>
+						<BooleanBehavior />
+					</Literal>
+					<Literal Bounds="5 130 15 15" DataType="Boolean" Id="379" Label="383">
+						<p.Data>True</p.Data>
+						<BooleanBehavior />
+					</Literal>
+					<NodeLabel AttachedTo="376" Bounds="5 8 62 14" Id="380" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>XAS Status</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="377" Bounds="5 43 111 14" Id="381" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Current Amp Status</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="378" Bounds="5 78 89 14" Id="382" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>NAS Connection</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="379" Bounds="5 113 67 14" Id="383" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Macro Mode</p.Text>
+					</NodeLabel>
+					<Literal Bounds="5 165 40 15" DataType="Int32" Id="356" Label="357">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Numeric" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 205 40 15" DataType="Int32" Id="358" Label="359">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Numeric" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 240 40 15" DataType="UInt8" Id="360" Label="362">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 280 40 15" DataType="UInt8" Id="361" Label="363">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 320 40 15" DataType="UInt8" Id="364" Label="365">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 360 40 15" DataType="UInt8" Id="366" Label="371">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 400 40 15" DataType="UInt32" Id="367" Label="372">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 435 40 15" DataType="UInt32" Id="368" Label="373">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 475 40 15" DataType="UInt32" Id="369" Label="374">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<Literal Bounds="5 515 40 15" DataType="UInt32" Id="370" Label="375">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<NodeLabel AttachedTo="356" Bounds="5 148 56 14" Id="357" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>XAS Mode</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="358" Bounds="5 188 72 14" Id="359" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Energy Mode</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="360" Bounds="5 223 82 14" Id="362" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Current Queue</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="361" Bounds="5 263 73 14" Id="363" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Current Scan</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="364" Bounds="5 303 98 14" Id="365" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Number of Queue</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="366" Bounds="5 343 90 14" Id="371" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Number of Scan</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="367" Bounds="5 383 12 14" Id="372" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>I0</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="368" Bounds="5 418 12 14" Id="373" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>I1</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="369" Bounds="5 458 12 14" Id="374" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>I2</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="370" Bounds="5 498 10 14" Id="375" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>If</p.Text>
+					</NodeLabel>
+					<Literal Bounds="5 550 40 15" DataType="Double" Id="384" Label="385">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 590 40 15" DataType="Double" Id="386" Label="387">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 625 40 15" DataType="Double" Id="388" Label="389">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 660 40 15" DataType="Double" Id="390" Label="393">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 700 40 15" DataType="Double" Id="391" Label="394">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 735 40 15" DataType="Double" Id="392" Label="395">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 770 40 15" DataType="Double" Id="396" Label="399">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 810 40 15" DataType="Double" Id="397" Label="400">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<Literal Bounds="5 845 40 15" DataType="Double" Id="398" Label="401">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="384" Bounds="5 533 73 14" Id="385" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Fl Dead Time</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="386" Bounds="5 573 14 14" Id="387" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>E0</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="388" Bounds="5 608 28 14" Id="389" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Emin</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="390" Bounds="5 643 31 14" Id="393" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Emax</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="391" Bounds="5 683 98 14" Id="394" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Percent Complete</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="392" Bounds="5 718 91 14" Id="395" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Currente Energy</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="396" Bounds="5 753 50 14" Id="399" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>In(I0/I1)</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="397" Bounds="5 793 50 14" Id="400" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>In(I1/I2)</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="398" Bounds="5 828 26 14" Id="401" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>If/I0</p.Text>
+					</NodeLabel>
+					<Literal Bounds="5 880 40 15" DataType="String" Id="402" Label="403">
+						<p.Data>""</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Literal Bounds="5 920 40 15" DataType="String" Id="404" Label="405">
+						<p.Data>""</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Literal Bounds="5 960 40 15" DataType="String" Id="406" Label="408">
+						<p.Data>""</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Literal Bounds="5 1000 40 15" DataType="String" Id="407" Label="409">
+						<p.Data>""</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Literal Bounds="5 1040 40 15" DataType="String" Id="410" Label="411">
+						<p.Data>""</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="402" Bounds="5 863 55 14" Id="403" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>File Name</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="404" Bounds="5 903 72 14" Id="405" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Queue Name</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="406" Bounds="5 943 79 14" Id="408" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Error Message</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="407" Bounds="5 983 28 14" Id="409" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Start</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="410" Bounds="5 1023 33 14" Id="411" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Finish</p.Text>
+					</NodeLabel>
+					<DockedConstantFacade UndockedSize="135 1090" />
+				</ClusterLiteral>
+				<Wire Facade="WireInvisibleFacade" Id="412" Joints="N(355:Out)|(260,185) v(9) h(-73) v(-34) h(-60) v(25) N(353:type and defaults)|(260,185)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<PropertyNode Bounds="365 35 145 440" HasErrorTerminals="False" Id="413" InstanceDataType="@411ba02a22714b4ca714fd2c84666856" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyItemTerminal DataType="Boolean" Hotspot="145 15" Id="c0t0v" Path="XAS Status" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Boolean" Hotspot="145 30" Id="c1t0v" Path="Current Amp Status" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Boolean" Hotspot="145 45" Id="c2t0v" Path="NAS Connection" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Boolean" Hotspot="145 60" Id="c3t0v" Path="Macro Mode" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Int32" Hotspot="145 75" Id="c4t0v" Path="XAS Mode" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Int32" Hotspot="145 90" Id="c5t0v" Path="Energy Mode" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt8" Hotspot="145 105" Id="c6t0v" Path="Current Queue" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt8" Hotspot="145 120" Id="c7t0v" Path="Number of Queue" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt8" Hotspot="145 135" Id="c8t0v" Path="Current Scan" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt8" Hotspot="145 150" Id="c9t0v" Path="Number of Scan" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt32" Hotspot="145 165" Id="c10t0v" Path="I0" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt32" Hotspot="145 180" Id="c11t0v" Path="I1" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt32" Hotspot="145 195" Id="c12t0v" Path="I2" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="UInt32" Hotspot="145 210" Id="c13t0v" Path="If" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 225" Id="c14t0v" Path="Fl Dead Time" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 240" Id="c15t0v" Path="E0" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 255" Id="c16t0v" Path="Emin" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 270" Id="c17t0v" Path="Emax" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 285" Id="c18t0v" Path="Percent Complete" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 300" Id="c19t0v" Path="Currente Energy" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 315" Id="c20t0v" Path="In(I0/I1)" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 330" Id="c21t0v" Path="In(I1/I2)" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Double" Hotspot="145 345" Id="c22t0v" Path="If/I0" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="145 360" Id="c23t0v" Path="File Name" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="145 375" Id="c24t0v" Path="Queue Name" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="145 390" Id="c25t0v" Path="Error Message" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="145 405" Id="c26t0v" Path="Start" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="145 420" Id="c27t0v" Path="Finish" PathElementMemberKinds="Field" Usage="Optional" />
+				</PropertyNode>
+				<Wire Id="414" Joints="N(353:value)|(300,175) h(35) v(-135) N(413:instance in)|(365,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="765 5 160 85" Default="416" Id="415" Selected="417" UserSelectorBounds="36 0 88 17">
+					<CaseStructure.Case Bounds="5 5 150 75" Id="416" Pattern="False">
+						<Literal Bounds="35 35 70 15" DataType="String" Id="420" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Stopped</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="421" Joints="N(420:Out)|(105,40) N(419:416)|(146,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 75" Id="417" Pattern="True">
+						<Literal Bounds="40 35 75 15" DataType="String" Id="422" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Scanning</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="423" Joints="N(422:Out)|(115,40) N(419:417)|(146,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="418" Terminals="415=424, 416, 417" />
+					<CaseStructure.Tunnel Bounds="151 40 13 10" Docking="Right" Id="419" Terminals="415=429, 416=421, 417=423" />
+				</CaseStructure>
+				<Wire Id="424" Joints="N(413:c0t0v)|(510,50) N(418:415)|(761,50)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 60 40 15" DataItem="78" Id="79" Label="82" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="79" Bounds="585 60 71 14" Id="82" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Current Amp</p.Text>
+				</NodeLabel>
+				<Wire Id="425" Joints="N(413:c1t0v)|(510,65) N(79:Value)|(543,65)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 90 40 15" DataItem="111" Id="112" Label="113" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="112" Bounds="585 90 33 14" Id="113" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Macro</p.Text>
+				</NodeLabel>
+				<Wire Id="427" Joints="N(413:c3t0v)|(510,95) N(112:Value)|(543,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 75 40 15" DataItem="99" Id="100" Label="101" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="100" Bounds="585 75 82 14" Id="101" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>NAS Conection</p.Text>
+				</NodeLabel>
+				<Wire Id="428" Joints="N(413:c2t0v)|(510,80) N(100:Value)|(543,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="955 45 40 15" DataItem="59" Id="60" Label="63" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="60" Bounds="1000 45 62 14" Id="63" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>XAS Status</p.Text>
+				</NodeLabel>
+				<Wire Id="429" Joints="N(419:415)|(929,50) N(60:Value)|(958,50)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 330 40 15" DataItem="254" Id="255" Label="256" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="255" Bounds="585 330 82 14" Id="256" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>current energy</p.Text>
+				</NodeLabel>
+				<Wire Id="430" Joints="N(413:c19t0v)|(510,335) N(255:Value)|(543,335)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 345 40 15" DataItem="260" Id="261" Label="262" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="261" Bounds="585 345 45 14" Id="262" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>in(i0/i1)</p.Text>
+				</NodeLabel>
+				<Wire Id="431" Joints="N(413:c20t0v)|(510,350) N(261:Value)|(543,350)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 360 40 15" DataItem="266" Id="267" Label="268" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="267" Bounds="585 360 45 14" Id="268" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>in(i1/i2)</p.Text>
+				</NodeLabel>
+				<Wire Id="432" Joints="N(413:c21t0v)|(510,365) N(267:Value)|(543,365)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 375 40 15" DataItem="272" Id="273" Label="274" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="273" Bounds="585 375 45 14" Id="274" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>in(i2/i0)</p.Text>
+				</NodeLabel>
+				<Wire Id="433" Joints="N(413:c22t0v)|(510,380) N(273:Value)|(543,380)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 270 40 15" DataItem="123" Id="124" Label="125" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="124" Bounds="585 270 14 14" Id="125" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>E0</p.Text>
+				</NodeLabel>
+				<Wire Id="434" Joints="N(413:c15t0v)|(510,275) N(124:Value)|(543,275)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 285 40 15" DataItem="129" Id="130" Label="131" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="130" Bounds="585 285 28 14" Id="131" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Emin</p.Text>
+				</NodeLabel>
+				<Wire Id="435" Joints="N(413:c16t0v)|(510,290) N(130:Value)|(543,290)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 300 40 15" DataItem="135" Id="136" Label="137" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="136" Bounds="585 300 31 14" Id="137" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Emax</p.Text>
+				</NodeLabel>
+				<Wire Id="436" Joints="N(413:c17t0v)|(510,305) N(136:Value)|(543,305)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 315 40 15" DataItem="161" Id="162" Label="165" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="162" Bounds="585 315 96 14" Id="165" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>percent complete</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="540 420 40 15" DataItem="313" Id="314" Label="317" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="314" Bounds="585 420 79 14" Id="317" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Error Message</p.Text>
+				</NodeLabel>
+				<Wire Id="438" Joints="N(413:c25t0v)|(510,425) N(314:Value)|(543,425)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 405 40 15" DataItem="204" Id="205" Label="206" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="205" Bounds="585 405 69 14" Id="206" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>queue name</p.Text>
+				</NodeLabel>
+				<Wire Id="439" Joints="N(413:c24t0v)|(510,410) N(205:Value)|(543,410)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 390 40 15" DataItem="197" Id="198" Label="199" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="198" Bounds="585 390 52 14" Id="199" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>file name</p.Text>
+				</NodeLabel>
+				<Wire Id="440" Joints="N(413:c23t0v)|(510,395) N(198:Value)|(543,395)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 255 40 15" DataItem="84" Id="85" Label="88" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="85" Bounds="585 255 76 14" Id="88" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>FL Dead Time</p.Text>
+				</NodeLabel>
+				<Wire Id="444" Joints="N(413:c14t0v)|(510,260) N(85:Value)|(543,260)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 195 40 15" DataItem="278" Id="279" Label="280" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="279" Bounds="585 195 11 14" Id="280" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>i0</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="540 210 40 15" DataItem="284" Id="285" Label="286" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="285" Bounds="585 210 11 14" Id="286" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>i1</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="540 225 40 15" DataItem="290" Id="291" Label="292" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="291" Bounds="585 225 11 14" Id="292" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>i2</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="540 240 40 15" DataItem="308" Id="309" Label="310" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="309" Bounds="585 240 10 14" Id="310" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>if</p.Text>
+				</NodeLabel>
+				<Wire Id="445" Joints="N(413:c10t0v)|(510,200) N(279:Value)|(543,200)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="446" Joints="N(413:c11t0v)|(510,215) N(285:Value)|(543,215)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="447" Joints="N(413:c12t0v)|(510,230) N(291:Value)|(543,230)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="448" Joints="N(413:c13t0v)|(510,245) N(309:Value)|(543,245)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="765 105 160 75" DataType="Int32" Default="450" Id="449" Selected="498" UserSelectorBounds="22 0 115 17">
+					<CaseStructure.Case Bounds="5 5 150 65" Id="450" Pattern="0, Default">
+						<Literal Bounds="35 30 90 15" DataType="String" Id="455" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Tranmission</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="456" Joints="N(455:Out)|(125,35) N(454:450)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 65" Id="451" Pattern="1">
+						<Literal Bounds="25 30 100 15" DataType="String" Id="457" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Transmission</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="458" Joints="N(457:Out)|(125,35) N(454:451)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 65" Id="452" Pattern="2">
+						<Literal Bounds="30 30 95 15" DataType="String" Id="459" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Fluorescence</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="460" Joints="N(459:Out)|(125,35) N(454:452)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 65" Id="498" Pattern="3">
+						<Literal Bounds="30 30 95 15" DataType="String" Id="499" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Combination</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="500" Joints="N(499:Out)|(125,35) N(454:498)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 30 13 10" Docking="Left" Id="453" Terminals="449=461, 450, 451, 452, 498" />
+					<CaseStructure.Tunnel Bounds="151 35 13 10" Docking="Right" Id="454" Terminals="449=462, 450=456, 451=458, 452=460, 498=500" />
+				</CaseStructure>
+				<Wire Id="461" Joints="N(413:c4t0v)|(510,110) h(230) v(30) N(453:449)|(761,140)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="955 140 40 15" DataItem="70" Id="71" Label="72" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="71" Bounds="1000 140 56 14" Id="72" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>XAS Mode</p.Text>
+				</NodeLabel>
+				<Wire Id="462" Joints="N(454:449)|(929,145) N(71:Value)|(958,145)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="955 235 40 15" DataItem="466" Id="467" Label="468" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="467" Bounds="1000 235 39 14" Id="468" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>energy</p.Text>
+				</NodeLabel>
+				<CaseStructure Bounds="765 200 160 70" DataType="Int32" Default="470" Id="469" Selected="471" UserSelectorBounds="22 0 115 17">
+					<CaseStructure.Case Bounds="5 5 150 60" Id="470" Pattern="0, Default">
+						<Literal Bounds="75 30 40 15" DataType="String" Id="476" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>""</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="477" Joints="N(476:Out)|(115,35) N(475:470)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 60" Id="471" Pattern="1">
+						<Literal Bounds="35 30 75 15" DataType="String" Id="478" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Absolute</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="479" Joints="N(478:Out)|(110,35) N(475:471)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 150 60" Id="501" Pattern="2">
+						<Literal Bounds="40 30 70 15" DataType="String" Id="502" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Relative</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="503" Joints="N(502:Out)|(110,35) N(475:501)|(146,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="472" Terminals="469=473, 470, 471, 501" />
+					<CaseStructure.Tunnel Bounds="151 35 13 10" Docking="Right" Id="475" Terminals="469=474, 470=477, 471=479, 501=503" />
+				</CaseStructure>
+				<Wire Id="473" Joints="N(413:c5t0v)|(510,125) h(220) v(120) N(472:469)|(761,245)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="474" Joints="N(475:469)|(929,240) N(467:Value)|(958,240)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="495" Joints="N(413:c26t0v)|(510,440) N(487:Value)|(543,440)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="540 435 40 15" DataItem="486" Id="487" Label="488" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="487" Bounds="585 435 55 14" Id="488" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>start time</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="540 450 40 15" DataItem="492" Id="493" Label="494" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="493" Bounds="585 450 59 14" Id="494" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>finish time</p.Text>
+				</NodeLabel>
+				<Wire Id="497" Joints="N(413:c27t0v)|(510,455) N(493:Value)|(543,455)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NumberToDecimalString Bounds="770 280 40 40" Id="557" />
+				<NumberToDecimalString Bounds="770 325 40 40" Id="558" />
+				<NumberToDecimalString Bounds="770 380 40 40" Id="559" />
+				<NumberToDecimalString Bounds="770 425 40 40" Id="560" />
+				<ConcatenateStrings Bounds="865 300 40 30" Id="561" Terminals="outString=573, c0t0v=563, c1t0v=565, c2t0v=569" VerticalChunkCount="3" />
+				<ConcatenateStrings Bounds="865 400 40 30" Id="562" Terminals="outString=572, c0t0v=570, c1t0v=568, c2t0v=571" VerticalChunkCount="3" />
+				<Wire Id="563" Joints="N(557:decimal integer string)|(810,285) h(50) v(20) N(561:c0t0v)|(865,305)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="820 310 40 15" DataType="String" Id="564" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>/</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="565" Joints="N(564:Out)|(860,315) N(561:c1t0v)|(865,315)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="820 410 40 15" DataType="String" Id="567" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>/</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="568" Joints="N(567:Out)|(860,415) N(562:c1t0v)|(865,415)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="569" Joints="N(558:decimal integer string)|(810,330) h(50) v(-5) N(561:c2t0v)|(865,325)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="570" Joints="N(559:decimal integer string)|(810,385) h(50) v(20) N(562:c0t0v)|(865,405)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="571" Joints="N(560:decimal integer string)|(810,430) h(50) v(-5) N(562:c2t0v)|(865,425)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="925 400 40 15" DataItem="515" Id="516" Label="517" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="516" Bounds="970 400 69 14" Id="517" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>current scan</p.Text>
+				</NodeLabel>
+				<Wire Id="572" Joints="N(562:outString)|(905,405) N(516:Value)|(928,405)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="920 300 40 15" DataItem="508" Id="509" Label="510" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="509" Bounds="965 300 78 14" Id="510" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>cerrent queue</p.Text>
+				</NodeLabel>
+				<Wire Id="573" Joints="N(561:outString)|(905,305) N(509:Value)|(923,305)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="574" Joints="N(413:c6t0v)|(510,140) h(210) v(145) N(557:number)|(770,285)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="575" Joints="N(413:c7t0v)|(510,155) h(200) v(175) N(558:number)|(770,330)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="576" Joints="N(413:c8t0v)|(510,170) h(190) v(215) N(559:number)|(770,385)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="577" Joints="N(413:c9t0v)|(510,185) h(180) v(245) N(560:number)|(770,430)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="875 485 40 15" DataItem="190" Id="191" Label="192" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="191" Bounds="920 485 89 14" Id="192" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>percent number</p.Text>
+				</NodeLabel>
+				<ToByteInteger Bounds="675 485 30 10" Id="580" />
+				<Wire Id="582" Joints="N(413:c18t0v)|(510,320) h(15) B(1) N(162:Value)|(543,320) B(1) v(170) N(580:number)|(678,490)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NumberToDecimalString Bounds="725 485 40 40" Id="583" />
+				<Wire Id="584" Joints="N(580:8bit integer)|(705,490) N(583:number)|(725,490)" xmlns="http://www.ni.com/PlatformFramework" />
+				<ConcatenateStrings Bounds="820 485 40 20" Id="585" Terminals="outString=589, c0t0v=586, c1t0v=588" />
+				<Wire Id="586" Joints="N(583:decimal integer string)|(765,490) N(585:c0t0v)|(820,490)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="775 495 40 15" DataType="String" Id="587" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>%</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="588" Joints="N(587:Out)|(815,500) N(585:c1t0v)|(820,500)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="589" Joints="N(585:outString)|(860,490) N(191:Value)|(878,490)" xmlns="http://www.ni.com/PlatformFramework" />
+			</WhileLoop>
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]1135" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Function_4&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;        &lt;style ni-autogenerated-style-id=&quot;&quot;&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            ni-front-panel[ni-control-id='FrontPanelCanvas'] {&#xA;                width: 1024px;&#xA;                height: 1135px;&#xA;            }&#xA;            &#xA;            .ni-front-panel-wrapper {&#xA;                min-width: 1024px;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='16'] {&#xA;                left: 4px;&#xA;                top: 4px;&#xA;                width: 1016px;&#xA;                height: 104px;&#xA;                font-size: 27px;&#xA;                font-family: Tahoma, Verdana, Segoe, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            &#xA;            ni-url-image[ni-control-id='30'] {&#xA;                left: 955px;&#xA;                top: 25px;&#xA;                width: 40px;&#xA;                height: 40px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='31'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 955px;&#xA;                top: 5px;&#xA;                width: 84px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-hyperlink[ni-control-id='35'] {&#xA;                left: 940px;&#xA;                top: 14px;&#xA;                width: 72px;&#xA;                height: 82px;&#xA;                font-size: 15px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;                --ni-text-align-as-flex: center;&#xA;                --ni-text-align: center;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='36'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 941px;&#xA;                top: -6px;&#xA;                width: 76px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='39'] {&#xA;                left: 65px;&#xA;                top: 132px;&#xA;                width: 447px;&#xA;                height: 160px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='41'] {&#xA;                left: 511px;&#xA;                top: 132px;&#xA;                width: 446px;&#xA;                height: 160px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='45'] {&#xA;                left: 364px;&#xA;                top: 291px;&#xA;                width: 294px;&#xA;                height: 85px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='43'] {&#xA;                left: 65px;&#xA;                top: 291px;&#xA;                width: 300px;&#xA;                height: 85px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='47'] {&#xA;                left: 657px;&#xA;                top: 291px;&#xA;                width: 300px;&#xA;                height: 85px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='49'] {&#xA;                left: 65px;&#xA;                top: 398px;&#xA;                width: 299px;&#xA;                height: 85px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='51'] {&#xA;                left: 363px;&#xA;                top: 398px;&#xA;                width: 295px;&#xA;                height: 85px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='53'] {&#xA;                left: 65px;&#xA;                top: 482px;&#xA;                width: 593px;&#xA;                height: 120px;&#xA;                font-size: 19px;&#xA;                font-family: Tahoma, Verdana, Segoe, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='57'] {&#xA;                left: 657px;&#xA;                top: 398px;&#xA;                width: 300px;&#xA;                height: 204px;&#xA;                font-size: 19px;&#xA;                font-family: Tahoma, Verdana, Segoe, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='61'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 56px;&#xA;                left: 100px;&#xA;                --ni-text-align: center;&#xA;                top: 214px;&#xA;                width: 375px;&#xA;                font-size: 29px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='62'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 100px;&#xA;                top: 181px;&#xA;                width: 113px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='66'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 56px;&#xA;                left: 546px;&#xA;                --ni-text-align: center;&#xA;                top: 214px;&#xA;                width: 375px;&#xA;                font-size: 29px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='68'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 546px;&#xA;                top: 181px;&#xA;                width: 111px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='80'] {&#xA;                left: 131px;&#xA;                top: 325px;&#xA;                width: 168px;&#xA;                height: 40px;&#xA;                font-size: 24px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: bold;&#xA;                text-decoration: none;&#xA;                --ni-true-background: rgba(255, 255, 255, 0);&#xA;                --ni-true-foreground-color: rgba(31, 203, 74, 1);&#xA;                --ni-false-background: rgba(255, 255, 255, 0);&#xA;                --ni-false-foreground-color: rgba(255, 72, 72, 1);&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='81'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 131px;&#xA;                top: 305px;&#xA;                width: 75px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='86'] {&#xA;                left: 443px;&#xA;                top: 333px;&#xA;                width: 136px;&#xA;                height: 24px;&#xA;                font-size: 24px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: center;&#xA;                --ni-text-align: center;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='87'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 443px;&#xA;                top: 313px;&#xA;                width: 79px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='96'] {&#xA;                left: 723px;&#xA;                top: 326px;&#xA;                width: 168px;&#xA;                height: 40px;&#xA;                font-size: 24px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: bold;&#xA;                text-decoration: none;&#xA;                --ni-true-background: rgba(255, 255, 255, 0);&#xA;                --ni-true-foreground-color: rgba(31, 203, 74, 1);&#xA;                --ni-false-background: rgba(255, 255, 255, 0);&#xA;                --ni-false-foreground-color: rgba(100, 100, 100, 1);&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='98'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 723px;&#xA;                top: 306px;&#xA;                width: 87px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='108'] {&#xA;                left: 473px;&#xA;                top: 433px;&#xA;                width: 73px;&#xA;                height: 40px;&#xA;                font-size: 24px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: bold;&#xA;                text-decoration: none;&#xA;                --ni-true-background: rgba(255, 255, 255, 0);&#xA;                --ni-true-foreground-color: rgba(31, 203, 74, 1);&#xA;                --ni-false-background: rgba(255, 255, 255, 0);&#xA;                --ni-false-foreground-color: rgba(100, 100, 100, 1);&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='110'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 473px;&#xA;                top: 413px;&#xA;                width: 41px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='114'] {&#xA;                left: 684px;&#xA;                top: 423px;&#xA;                width: 35px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='116'] {&#xA;                left: 684px;&#xA;                top: 485px;&#xA;                width: 59px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='118'] {&#xA;                left: 684px;&#xA;                top: 547px;&#xA;                width: 62px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='120'] {&#xA;                left: 831px;&#xA;                top: 425px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='122'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 831px;&#xA;                top: 405px;&#xA;                width: 20px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='126'] {&#xA;                left: 831px;&#xA;                top: 488px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='128'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 831px;&#xA;                top: 468px;&#xA;                width: 33px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='132'] {&#xA;                left: 831px;&#xA;                top: 550px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='134'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 831px;&#xA;                top: 530px;&#xA;                width: 35px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='150'] {&#xA;                left: 197px;&#xA;                top: 505px;&#xA;                width: 95px;&#xA;                height: 25px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='152'] {&#xA;                left: 197px;&#xA;                top: 553px;&#xA;                width: 104px;&#xA;                height: 25px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-url-image[ni-control-id='156'] {&#xA;                left: 98px;&#xA;                top: 514px;&#xA;                width: 55px;&#xA;                height: 55px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='157'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 98px;&#xA;                top: 494px;&#xA;                width: 67px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='159'] {&#xA;                left: 65px;&#xA;                top: 624px;&#xA;                width: 892px;&#xA;                height: 280px;&#xA;                font-size: 19px;&#xA;                font-family: Tahoma, Verdana, Segoe, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            jqx-circular-progress-bar[ni-control-id='163'] {&#xA;                left: 132px;&#xA;                top: 648px;&#xA;                width: 232px;&#xA;                height: 232px;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='164'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 132px;&#xA;                top: 628px;&#xA;                width: 100px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='166'] {&#xA;                left: 437px;&#xA;                top: 648px;&#xA;                width: 113px;&#xA;                height: 31px;&#xA;                font-size: 23px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='168'] {&#xA;                left: 437px;&#xA;                top: 696px;&#xA;                width: 137px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='170'] {&#xA;                left: 437px;&#xA;                top: 743px;&#xA;                width: 151px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='172'] {&#xA;                left: 437px;&#xA;                top: 789px;&#xA;                width: 133px;&#xA;                height: 29px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='186'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 68px;&#xA;                left: 188px;&#xA;                --ni-text-align: center;&#xA;                top: 732px;&#xA;                width: 120px;&#xA;                font-size: 48px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='188'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 188px;&#xA;                top: 699px;&#xA;                width: 163px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='193'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 33px;&#xA;                left: 652px;&#xA;                --ni-text-align: right;&#xA;                top: 646px;&#xA;                width: 234px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='195'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 31px;&#xA;                left: 652px;&#xA;                top: 611px;&#xA;                width: 105px;&#xA;                font-size: 23px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='200'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 33px;&#xA;                left: 652px;&#xA;                --ni-text-align: right;&#xA;                top: 693px;&#xA;                width: 234px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='202'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 652px;&#xA;                top: 660px;&#xA;                width: 129px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='227'] {&#xA;                left: 65px;&#xA;                top: 928px;&#xA;                width: 285px;&#xA;                height: 60px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='228'] {&#xA;                left: 65px;&#xA;                top: 987px;&#xA;                width: 285px;&#xA;                height: 140px;&#xA;                font-size: 1px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='233'] {&#xA;                left: 349px;&#xA;                top: 928px;&#xA;                width: 215px;&#xA;                height: 199px;&#xA;                font-size: 1px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='235'] {&#xA;                left: 93px;&#xA;                top: 945px;&#xA;                width: 135px;&#xA;                height: 28px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='237'] {&#xA;                left: 384px;&#xA;                top: 945px;&#xA;                width: 25px;&#xA;                height: 28px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='239'] {&#xA;                left: 93px;&#xA;                top: 1045px;&#xA;                width: 70px;&#xA;                height: 28px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='241'] {&#xA;                left: 93px;&#xA;                top: 1089px;&#xA;                width: 70px;&#xA;                height: 28px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='243'] {&#xA;                left: 384px;&#xA;                top: 991px;&#xA;                width: 25px;&#xA;                height: 28px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='245'] {&#xA;                left: 384px;&#xA;                top: 1037px;&#xA;                width: 25px;&#xA;                height: 28px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='247'] {&#xA;                left: 384px;&#xA;                top: 1083px;&#xA;                width: 25px;&#xA;                height: 28px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='249'] {&#xA;                left: 93px;&#xA;                top: 998px;&#xA;                width: 70px;&#xA;                height: 28px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='251'] {&#xA;                left: 246px;&#xA;                top: 946px;&#xA;                width: 80px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='253'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 246px;&#xA;                top: 926px;&#xA;                width: 84px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='257'] {&#xA;                left: 246px;&#xA;                top: 998px;&#xA;                width: 80px;&#xA;                height: 24px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='259'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 246px;&#xA;                top: 978px;&#xA;                width: 47px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='263'] {&#xA;                left: 246px;&#xA;                top: 1045px;&#xA;                width: 80px;&#xA;                height: 24px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='265'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 246px;&#xA;                top: 1025px;&#xA;                width: 47px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='269'] {&#xA;                left: 246px;&#xA;                top: 1091px;&#xA;                width: 80px;&#xA;                height: 24px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='271'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 246px;&#xA;                top: 1071px;&#xA;                width: 47px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='275'] {&#xA;                left: 433px;&#xA;                top: 947px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='277'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 433px;&#xA;                top: 927px;&#xA;                width: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='281'] {&#xA;                left: 433px;&#xA;                top: 993px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='283'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 433px;&#xA;                top: 973px;&#xA;                width: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='287'] {&#xA;                left: 433px;&#xA;                top: 1039px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='289'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 433px;&#xA;                top: 1019px;&#xA;                width: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='305'] {&#xA;                left: 433px;&#xA;                top: 1086px;&#xA;                width: 100px;&#xA;                height: 24px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='307'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 433px;&#xA;                top: 1066px;&#xA;                width: 14px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='311'] {&#xA;                left: 584px;&#xA;                top: 928px;&#xA;                width: 373px;&#xA;                height: 104px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='315'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 31px;&#xA;                left: 588px;&#xA;                --ni-text-align: center;&#xA;                top: 981px;&#xA;                width: 364px;&#xA;                font-size: 20px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='316'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 588px;&#xA;                top: 961px;&#xA;                width: 83px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='319'] {&#xA;                left: 584px;&#xA;                top: 1047px;&#xA;                width: 373px;&#xA;                height: 80px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 0);&#xA;            }&#xA;            &#xA;            ni-url-image[ni-control-id='328'] {&#xA;                left: 654px;&#xA;                top: 1059px;&#xA;                width: 56px;&#xA;                height: 56px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='329'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 654px;&#xA;                top: 1039px;&#xA;                width: 80px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-hyperlink[ni-control-id='333'] {&#xA;                left: 689px;&#xA;                top: 1075px;&#xA;                width: 251px;&#xA;                height: 40px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-foreground-color: rgba(0, 164, 229, 1);&#xA;                --ni-text-align-as-flex: center;&#xA;                --ni-text-align: center;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='334'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 689px;&#xA;                top: 1055px;&#xA;                width: 87px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='337'] {&#xA;                left: 945px;&#xA;                top: 64px;&#xA;                width: 62px;&#xA;                height: 22px;&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-text-align-as-flex: center;&#xA;                --ni-text-align: center;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='463'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 33px;&#xA;                left: 80px;&#xA;                --ni-text-align: center;&#xA;                top: 438px;&#xA;                width: 268px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='465'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 80px;&#xA;                top: 418px;&#xA;                width: 43px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='483'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 315px;&#xA;                --ni-text-align: center;&#xA;                top: 504px;&#xA;                width: 330px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='485'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 315px;&#xA;                top: 484px;&#xA;                width: 57px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='489'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 314px;&#xA;                --ni-text-align: center;&#xA;                top: 551px;&#xA;                width: 330px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='491'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 16px;&#xA;                left: 314px;&#xA;                top: 531px;&#xA;                width: 62px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='504'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 33px;&#xA;                left: 653px;&#xA;                --ni-text-align: right;&#xA;                top: 741px;&#xA;                width: 234px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='506'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 653px;&#xA;                top: 708px;&#xA;                width: 143px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box[ni-control-id='511'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 33px;&#xA;                left: 653px;&#xA;                --ni-text-align: right;&#xA;                top: 788px;&#xA;                width: 234px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='513'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 29px;&#xA;                left: 653px;&#xA;                top: 755px;&#xA;                width: 127px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='592'] {&#xA;                left: 462px;&#xA;                top: 839px;&#xA;                width: 400px;&#xA;                height: 46px;&#xA;                font-size: 24px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                --ni-true-background: linear-gradient(180deg, rgba(224, 224, 224, 1) 0%, rgba(193, 193, 193, 1) 100%);&#xA;                --ni-true-foreground-color: rgba(38, 38, 38, 1);&#xA;                --ni-false-background: linear-gradient(90deg, rgba(173, 213, 94, 1) 0%, rgba(73, 153, 192, 1) 100%);&#xA;                --ni-false-foreground-color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='593'] {&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 10px;&#xA;                left: 462px;&#xA;                top: 819px;&#xA;                width: 10px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;        &lt;style&gt;&#xA;            body {&#xA;                background-color: #ECF0F1;&#xA;            }&#xA;            &#xA;            ni-text {&#xA;                border: 1px solid #BDC3C7;&#xA;            }&#xA;            &#xA;            jqx-multiline-text-box {&#xA;                --ni-border: none;&#xA;                --ni-indicator-background-color: transparent;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box {&#xA;                --ni-border: none;&#xA;                --ni-indicator-background-color: transparent;&#xA;            }&#xA;            &#xA;            jqx-led {&#xA;                --ni-border: none;&#xA;            }&#xA;        &lt;/style&gt;&#xA;        &lt;style&gt;&#xA;            ni-text[ni-control-id='16'] {&#xA;                border: none;&#xA;                background: linear-gradient(to right, #ADD55E, #4999C0);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='114'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='116'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='118'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='150'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='152'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='166'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='168'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='170'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='172'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='235'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='237'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='243'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='245'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='247'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='249'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='239'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='241'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='337'] {&#xA;                border: none;&#xA;            }&#xA;            &#xA;            jqx-circular-progress-bar[ni-control-id='163'] {&#xA;                --ni-fill-background: #ADD55E);&#xA;            }&#xA;        &lt;/style&gt;&#xA;&#xA;    &lt;/head&gt;&#xA;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-title&quot;&gt;&#xA;                Unable to load resource file&#xA;            &lt;/div&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-body&quot;&gt;&#xA;                Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See &lt;a href=&quot;http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP&quot;&gt;Hosting a Web Application on a Server&lt;/a&gt;                for more information.&#xA;            &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;div class=&quot;ni-front-panel-wrapper&quot; vi-ref=&quot;&quot; ni-control-id=&quot;FrontPanelWrapper&quot;&gt;&#xA;            &lt;ni-front-panel ni-control-id=&quot;FrontPanelCanvas&quot;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;            &lt;/ni-front-panel&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#ffffffff" Height="[float]104" Id="16" Left="[float]4" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]&#xD;&#xA;   XAS Scan Status Details" TextWrapping="[TextWrapping]Wrap" Top="[float]4" Width="[float]1016" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Tahoma" FontSize="20" Id="17" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]40" Id="30" Label="[UIModel]31" Left="[float]955" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=28}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]25" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Home1_Image&quot;" Height="[float]16" Id="31" LabelOwner="[UIModel]30" Left="[float]955" Text="[string]Home1_Image" Top="[float]5" Visible="[bool]False" Width="[float]84" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]BL1.1W" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]82" Id="35" IsUrlSameAsContent="[bool]False" Label="[UIModel]36" Left="[float]940" TabIndex="[int]1" TargetUrl="{DataItemBinding Id=33}" TextAlignment="[TextAlignment]Center" Top="[float]14" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="11" Id="38" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlHyperlinkControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Main Control&quot;" Height="[float]16" Id="36" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]35" Left="[float]941" Text="[string]Main Control" Top="[float]-6" Visible="[bool]False" Width="[float]76" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]160" Id="39" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string] &#xD;&#xA;     Status" TextWrapping="[TextWrapping]Wrap" Top="[float]132" Width="[float]447" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="40" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]160" Id="41" Left="[float]511" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]&#xD;&#xA;     Mode" TextWrapping="[TextWrapping]Wrap" Top="[float]132" Width="[float]446" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="42" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]85" Id="45" Left="[float]364" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  FL Dead Time" TextWrapping="[TextWrapping]Wrap" Top="[float]291" Width="[float]294" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="46" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]85" Id="43" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Current Amp Status" TextWrapping="[TextWrapping]Wrap" Top="[float]291" Width="[float]300" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="44" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]85" Id="47" Left="[float]657" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  NAS Connection" TextWrapping="[TextWrapping]Wrap" Top="[float]291" Width="[float]300" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="48" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]85" Id="49" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Energy Mode" TextWrapping="[TextWrapping]Wrap" Top="[float]398" Width="[float]299" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="50" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]85" Id="51" Left="[float]363" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Macro Mode" TextWrapping="[TextWrapping]Wrap" Top="[float]398" Width="[float]295" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="52" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]120" Id="53" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Status" TextWrapping="[TextWrapping]Wrap" Top="[float]482" Width="[float]593" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Tahoma" FontSize="14" Id="54" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]204" Id="57" Left="[float]657" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Status" TextWrapping="[TextWrapping]Wrap" Top="[float]398" Width="[float]300" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Tahoma" FontSize="14" Id="58" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]56" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="61" IsReadOnly="[bool]True" Label="[UIModel]62" Left="[float]100" MinHeight="[float]44" MinWidth="[float]20" TabIndex="[int]2" Text="{DataItemBinding Id=59}" TextAlignment="[TextAlignment]Center" Top="[float]214" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]375" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="22" Id="65" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASStatus&quot;" Height="[float]29" Id="62" LabelOwner="[UIModel]61" Left="[float]100" Text="[string]XAS Status" Top="[float]181" Visible="[bool]False" Width="[float]113" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="64" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]56" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="66" IsReadOnly="[bool]True" Label="[UIModel]68" Left="[float]546" MinHeight="[float]44" MinWidth="[float]20" TabIndex="[int]3" Text="{DataItemBinding Id=70}" TextAlignment="[TextAlignment]Center" Top="[float]214" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]375" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="22" Id="67" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASMode&quot;" Height="[float]29" Id="68" LabelOwner="[UIModel]66" Left="[float]546" Text="[string]XAS Mode" Top="[float]181" Visible="[bool]False" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="69" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlBooleanLED BaseName="[string]LED" ContentVisibility="[Visibility]Visible" Extras="[Dictionary&lt;string, string&gt;]&quot;checked&quot;=&quot;true&quot;" FalseBackground="[SMSolidColorBrush]#00ffffff" FalseContent="[string]Overload" FalseForeground="[SMColor]#ffff4848" Height="[float]40" Id="80" IsReadOnly="[bool]True" Label="[UIModel]81" Left="[float]131" MinHeight="[float]34" MinWidth="[float]73" Shape="[LEDShape]Square" TabIndex="[int]4" Top="[float]325" TrueBackground="[SMSolidColorBrush]#00ffffff" TrueContent="[string]Normal" TrueForeground="[SMColor]#ff1fcb4a" Value="{DataItemBinding Id=78}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="83" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlBooleanLED>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;CurrentAmp&quot;" Height="[float]16" Id="81" LabelOwner="[UIModel]80" Left="[float]131" Text="[string]Current Amp" Top="[float]305" Visible="[bool]False" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]24" Id="86" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]87" Left="[float]443" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]5" TextAlignment="[TextAlignment]Center" Top="[float]333" Value="{DataItemBinding Id=84}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]136" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="18" Id="89" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="87" LabelOwner="[UIModel]86" Left="[float]443" Text="[string]FL Dead Time" Top="[float]313" Visible="[bool]False" Width="[float]79" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlBooleanLED BaseName="[string]LED" ContentVisibility="[Visibility]Visible" Extras="[Dictionary&lt;string, string&gt;]&quot;checked&quot;=&quot;true&quot;" FalseBackground="[SMSolidColorBrush]#00ffffff" FalseContent="[string]Disconnected" FalseForeground="[SMColor]#ff646464" Height="[float]40" Id="96" IsReadOnly="[bool]True" Label="[UIModel]98" Left="[float]723" MinHeight="[float]34" MinWidth="[float]73" Shape="[LEDShape]Square" TabIndex="[int]6" Top="[float]326" TrueBackground="[SMSolidColorBrush]#00ffffff" TrueContent="[string]Connected" TrueForeground="[SMColor]#ff1fcb4a" Value="{DataItemBinding Id=99}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="97" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlBooleanLED>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;CurrentAmp&quot;" Height="[float]16" Id="98" LabelOwner="[UIModel]96" Left="[float]723" Text="[string]NAS Conection" Top="[float]306" Visible="[bool]False" Width="[float]87" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlBooleanLED BaseName="[string]LED" ContentVisibility="[Visibility]Visible" Extras="[Dictionary&lt;string, string&gt;]&quot;checked&quot;=&quot;true&quot;" FalseBackground="[SMSolidColorBrush]#00ffffff" FalseContent="[string]Off" FalseForeground="[SMColor]#ff646464" Height="[float]40" Id="108" IsReadOnly="[bool]True" Label="[UIModel]110" Left="[float]473" MinHeight="[float]34" MinWidth="[float]73" Shape="[LEDShape]Square" TabIndex="[int]7" Top="[float]433" TrueBackground="[SMSolidColorBrush]#00ffffff" TrueContent="[string]On" TrueForeground="[SMColor]#ff1fcb4a" Value="{DataItemBinding Id=111}" Width="[float]73" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="109" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlBooleanLED>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;CurrentAmp&quot;" Height="[float]16" Id="110" LabelOwner="[UIModel]108" Left="[float]473" Text="[string]Macro" Top="[float]413" Visible="[bool]False" Width="[float]41" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="114" Left="[float]684" MinHeight="[float]11" MinWidth="[float]11" Text="[string]E0" TextWrapping="[TextWrapping]Wrap" Top="[float]423" Width="[float]35" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="115" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="116" Left="[float]684" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Emin" TextWrapping="[TextWrapping]Wrap" Top="[float]485" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="117" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="118" Left="[float]684" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Emax" TextWrapping="[TextWrapping]Wrap" Top="[float]547" Width="[float]62" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="119" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]24" Id="120" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]122" Left="[float]831" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]8" TextAlignment="[TextAlignment]Right" Top="[float]425" Value="{DataItemBinding Id=123}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="121" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="122" LabelOwner="[UIModel]120" Left="[float]831" Text="[string]E0" Top="[float]405" Visible="[bool]False" Width="[float]20" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]24" Id="126" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]128" Left="[float]831" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]9" TextAlignment="[TextAlignment]Right" Top="[float]488" Value="{DataItemBinding Id=129}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="127" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="128" LabelOwner="[UIModel]126" Left="[float]831" Text="[string]Emin" Top="[float]468" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]24" Id="132" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]134" Left="[float]831" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]10" TextAlignment="[TextAlignment]Right" Top="[float]550" Value="{DataItemBinding Id=135}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="133" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="134" LabelOwner="[UIModel]132" Left="[float]831" Text="[string]Emax" Top="[float]530" Visible="[bool]False" Width="[float]35" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]25" Id="150" Left="[float]197" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Start Time" TextWrapping="[TextWrapping]Wrap" Top="[float]505" Width="[float]95" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="151" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]25" Id="152" Left="[float]197" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Finish Time" TextWrapping="[TextWrapping]Wrap" Top="[float]553" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="153" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]55" Id="156" Label="[UIModel]157" Left="[float]98" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=154}" Stretch="[SMStretch]Uniform" TabIndex="[int]11" Top="[float]514" Width="[float]55" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;time image&quot;" Height="[float]16" Id="157" LabelOwner="[UIModel]156" Left="[float]98" Text="[string]time image" Top="[float]494" Visible="[bool]False" Width="[float]67" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]280" Id="159" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Status" TextWrapping="[TextWrapping]Wrap" Top="[float]624" Width="[float]892" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Tahoma" FontSize="14" Id="160" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlLVRadialProgressBar BaseName="[string]Radial Progress Bar" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]232" Id="163" IsIndeterminate="[bool]True" Label="[UIModel]164" Left="[float]132" Maximum="[double]100" MinHeight="[float]40" MinWidth="[float]40" Minimum="[double]0" TabIndex="[int]12" Top="[float]648" Value="{DataItemBinding Id=161}" Width="[float]232" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;percent complete&quot;" Height="[float]16" Id="164" LabelOwner="[UIModel]163" Left="[float]132" Text="[string]percent complete" Top="[float]628" Visible="[bool]False" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]31" Id="166" Left="[float]437" MinHeight="[float]11" MinWidth="[float]11" Text="[string]File Name" TextWrapping="[TextWrapping]Wrap" Top="[float]648" Width="[float]113" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="17" Id="167" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="168" Left="[float]437" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Queue Name" TextWrapping="[TextWrapping]Wrap" Top="[float]696" Width="[float]137" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="169" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="170" Left="[float]437" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Current Queue" TextWrapping="[TextWrapping]Wrap" Top="[float]743" Width="[float]151" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="171" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" Id="172" Left="[float]437" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Current Scan" TextWrapping="[TextWrapping]Wrap" Top="[float]789" Width="[float]133" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="173" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]68" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="186" IsReadOnly="[bool]True" Label="[UIModel]188" Left="[float]188" MinHeight="[float]68" MinWidth="[float]20" TabIndex="[int]13" Text="{DataItemBinding Id=190}" TextAlignment="[TextAlignment]Center" Top="[float]732" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="36" Id="187" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASStatus&quot;" Height="[float]29" Id="188" LabelOwner="[UIModel]186" Left="[float]188" Text="[string]percent number" Top="[float]699" Visible="[bool]False" Width="[float]163" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="189" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="193" IsReadOnly="[bool]True" Label="[UIModel]195" Left="[float]652" MinHeight="[float]33" MinWidth="[float]20" TabIndex="[int]14" Text="{DataItemBinding Id=197}" TextAlignment="[TextAlignment]Right" Top="[float]646" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]234" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="194" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASMode&quot;" Height="[float]31" Id="195" LabelOwner="[UIModel]193" Left="[float]652" Text="[string]file name" Top="[float]611" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="17" Id="196" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="200" IsReadOnly="[bool]True" Label="[UIModel]202" Left="[float]652" MinHeight="[float]33" MinWidth="[float]20" TabIndex="[int]15" Text="{DataItemBinding Id=204}" TextAlignment="[TextAlignment]Right" Top="[float]693" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]234" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="201" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASMode&quot;" Height="[float]29" Id="202" LabelOwner="[UIModel]200" Left="[float]652" Text="[string]queue name" Top="[float]660" Visible="[bool]False" Width="[float]129" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="203" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]60" Id="227" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  &#xD;&#xA;  C" TextWrapping="[TextWrapping]Wrap" Top="[float]928" Width="[float]285" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="229" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]140" Id="228" Left="[float]65" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Current Energy" TextWrapping="[TextWrapping]Wrap" Top="[float]987" Width="[float]285" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="1" Id="230" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]199" Id="233" Left="[float]349" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Current Energy" TextWrapping="[TextWrapping]Wrap" Top="[float]928" Width="[float]215" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="1" Id="234" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="235" Left="[float]93" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Current Energy" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]945" Width="[float]135" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="236" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="237" Left="[float]384" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]I0" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]945" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="238" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="239" Left="[float]93" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]In(I1/I2)" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]1045" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="240" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="241" Left="[float]93" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]In(If/I0)" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]1089" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="242" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="243" Left="[float]384" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]I1" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]991" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="244" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="245" Left="[float]384" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]I2" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]1037" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="246" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="247" Left="[float]384" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]If" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]1083" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="248" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]28" Id="249" Left="[float]93" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]In(I0/I1)" TextAlignment="[TextAlignment]Left" TextWrapping="[TextWrapping]Wrap" Top="[float]998" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="250" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint8&quot;" Height="[float]24" Id="251" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]253" Left="[float]246" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]16" TextAlignment="[TextAlignment]Right" Top="[float]946" Value="{DataItemBinding Id=254}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="252" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="253" LabelOwner="[UIModel]251" Left="[float]246" Text="[string]current energy" Top="[float]926" Visible="[bool]False" Width="[float]84" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint8&quot;" Height="[float]24" Id="257" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]259" Left="[float]246" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]17" TextAlignment="[TextAlignment]Right" Top="[float]998" Value="{DataItemBinding Id=260}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="258" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="259" LabelOwner="[UIModel]257" Left="[float]246" Text="[string]in(i0/i1)" Top="[float]978" Visible="[bool]False" Width="[float]47" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint8&quot;" Height="[float]24" Id="263" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]265" Left="[float]246" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]18" TextAlignment="[TextAlignment]Right" Top="[float]1045" Value="{DataItemBinding Id=266}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="264" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="265" LabelOwner="[UIModel]263" Left="[float]246" Text="[string]in(i1/i2)" Top="[float]1025" Visible="[bool]False" Width="[float]47" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint8&quot;" Height="[float]24" Id="269" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]271" Left="[float]246" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]19" TextAlignment="[TextAlignment]Right" Top="[float]1091" Value="{DataItemBinding Id=272}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="270" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="271" LabelOwner="[UIModel]269" Left="[float]246" Text="[string]in(i2/i0)" Top="[float]1071" Visible="[bool]False" Width="[float]47" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint32&quot;" Height="[float]24" Id="275" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]277" Left="[float]433" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]20" TextAlignment="[TextAlignment]Right" Top="[float]947" Value="{DataItemBinding Id=278}" ValueFormatter="[string]Decimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="276" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="277" LabelOwner="[UIModel]275" Left="[float]433" Text="[string]i0" Top="[float]927" Visible="[bool]False" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint32&quot;" Height="[float]24" Id="281" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]283" Left="[float]433" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]21" TextAlignment="[TextAlignment]Right" Top="[float]993" Value="{DataItemBinding Id=284}" ValueFormatter="[string]Decimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="282" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="283" LabelOwner="[UIModel]281" Left="[float]433" Text="[string]i1" Top="[float]973" Visible="[bool]False" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint32&quot;" Height="[float]24" Id="287" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]289" Left="[float]433" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]22" TextAlignment="[TextAlignment]Right" Top="[float]1039" Value="{DataItemBinding Id=290}" ValueFormatter="[string]Decimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="288" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="289" LabelOwner="[UIModel]287" Left="[float]433" Text="[string]i2" Top="[float]1019" Visible="[bool]False" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]&quot;word-length&quot;=&quot;uint32&quot;" Height="[float]24" Id="305" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]307" Left="[float]433" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]23" TextAlignment="[TextAlignment]Right" Top="[float]1086" Value="{DataItemBinding Id=308}" ValueFormatter="[string]Decimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="306" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlNumericText>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;FLDeadTime&quot;" Height="[float]16" Id="307" LabelOwner="[UIModel]305" Left="[float]433" Text="[string]if" Top="[float]1066" Visible="[bool]False" Width="[float]14" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]104" Id="311" Left="[float]584" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  Error Message" TextWrapping="[TextWrapping]Wrap" Top="[float]928" Width="[float]373" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="312" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlStringControl AcceptsReturn="[bool]False" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]31" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="315" IsReadOnly="[bool]True" Label="[UIModel]316" Left="[float]588" MinHeight="[float]31" MinWidth="[float]20" TabIndex="[int]24" Text="{DataItemBinding Id=313}" TextAlignment="[TextAlignment]Center" Top="[float]981" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]364" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="15" Id="318" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Error Message&quot;" Height="[float]16" Id="316" LabelOwner="[UIModel]315" Left="[float]588" Text="[string]Error Message" Top="[float]961" Visible="[bool]False" Width="[float]83" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#00ffffff" Height="[float]80" Id="319" Left="[float]584" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]  E" TextWrapping="[TextWrapping]Wrap" Top="[float]1047" Width="[float]373" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="320" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]56" Id="328" Label="[UIModel]329" Left="[float]654" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=326}" Stretch="[SMStretch]Uniform" TabIndex="[int]25" Top="[float]1059" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;home2 Image&quot;" Height="[float]16" Id="329" LabelOwner="[UIModel]328" Left="[float]654" Text="[string]home2 Image" Top="[float]1039" Visible="[bool]False" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]BACK TO BL1.1W" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#ff00a4e5" Height="[float]40" Id="333" IsUrlSameAsContent="[bool]False" Label="[UIModel]334" Left="[float]689" TabIndex="[int]26" TargetUrl="{DataItemBinding Id=331}" TextAlignment="[TextAlignment]Center" Top="[float]1075" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="336" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlHyperlinkControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;home2 Control&quot;" Height="[float]16" Id="334" LabelOwner="[UIModel]333" Left="[float]689" Text="[string]home2 Control" Top="[float]1055" Visible="[bool]False" Width="[float]87" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]" Foreground="[SMColor]#ffffffff" Height="[float]22" Id="337" Left="[float]945" MinHeight="[float]11" MinWidth="[float]11" Text="[string]BL1.1W" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]64" Width="[float]62" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="338" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="463" IsReadOnly="[bool]True" Label="[UIModel]465" Left="[float]80" MinHeight="[float]33" MinWidth="[float]20" TabIndex="[int]27" Text="{DataItemBinding Id=466}" TextAlignment="[TextAlignment]Center" Top="[float]438" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]268" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="464" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Error Message&quot;" Height="[float]16" Id="465" LabelOwner="[UIModel]463" Left="[float]80" Text="[string]energy" Top="[float]418" Visible="[bool]False" Width="[float]43" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]False" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="483" IsReadOnly="[bool]True" Label="[UIModel]485" Left="[float]315" MinHeight="[float]29" MinWidth="[float]20" TabIndex="[int]28" Text="{DataItemBinding Id=486}" TextAlignment="[TextAlignment]Center" Top="[float]504" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]330" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="484" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Error Message&quot;" Height="[float]16" Id="485" LabelOwner="[UIModel]483" Left="[float]315" Text="[string]start time" Top="[float]484" Visible="[bool]False" Width="[float]57" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]False" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]29" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="489" IsReadOnly="[bool]True" Label="[UIModel]491" Left="[float]314" MinHeight="[float]29" MinWidth="[float]20" TabIndex="[int]29" Text="{DataItemBinding Id=492}" TextAlignment="[TextAlignment]Center" Top="[float]551" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]330" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="490" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Error Message&quot;" Height="[float]16" Id="491" LabelOwner="[UIModel]489" Left="[float]314" Text="[string]finish time" Top="[float]531" Visible="[bool]False" Width="[float]62" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="504" IsReadOnly="[bool]True" Label="[UIModel]506" Left="[float]653" MinHeight="[float]33" MinWidth="[float]20" TabIndex="[int]30" Text="{DataItemBinding Id=508}" TextAlignment="[TextAlignment]Right" Top="[float]741" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]234" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="505" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASMode&quot;" Height="[float]29" Id="506" LabelOwner="[UIModel]504" Left="[float]653" Text="[string]cerrent queue" Top="[float]708" Visible="[bool]False" Width="[float]143" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="507" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="511" IsReadOnly="[bool]True" Label="[UIModel]513" Left="[float]653" MinHeight="[float]33" MinWidth="[float]20" TabIndex="[int]31" Text="{DataItemBinding Id=515}" TextAlignment="[TextAlignment]Right" Top="[float]788" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]234" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="512" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;XASMode&quot;" Height="[float]29" Id="513" LabelOwner="[UIModel]511" Left="[float]653" Text="[string]current scan" Top="[float]755" Visible="[bool]False" Width="[float]127" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="514" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlBooleanLED BaseName="[string]LED" ContentVisibility="[Visibility]Visible" Extras="[Dictionary&lt;string, string&gt;]" FalseBackground="[SMLinearGradientBrush]{Start: 0 0}, {End: 1 0}, {Stops: {Stop: #ffadd55e 0}, {Stop: #ff4999c0 1}}" FalseContent="[string]Puase" FalseForeground="[SMColor]#ffffffff" Height="[float]46" Id="592" IsReadOnly="[bool]True" Label="[UIModel]593" Left="[float]462" MinHeight="[float]32" MinWidth="[float]33" Shape="[LEDShape]Square" TabIndex="[int]32" Top="[float]839" TrueBackground="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #ffe0e0e0 0}, {Stop: #ffc1c1c1 1}}" TrueContent="[string]Continue" TrueForeground="[SMColor]#ff262626" Value="{DataItemBinding Id=590}" Width="[float]400" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="18" Id="595" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlBooleanLED>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;continue switch&quot;" Height="[float]10" Id="593" LabelOwner="[UIModel]592" Left="[float]462" Text="[string]continue switch" Top="[float]819" Visible="[bool]False" Width="[float]10" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="28" Name="Home1_Image" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Image/home%20%281%29.png</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="33" Name="Main Control" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Main.html</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="59" Name="XAS Status" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Scanning</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="70" Name="XAS Mode" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Fluorescence</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="78" Name="Current Amp" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="84" Name="FL Dead Time" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="99" Name="NAS Conection" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="111" Name="Macro" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="123" Name="E0" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="129" Name="Emin" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="135" Name="Emax" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="154" Name="time image" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Image/clock.png</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="161" Name="percent complete" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="190" Name="percent number" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>43%</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="197" Name="file name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Example File</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="204" Name="queue name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>No 1</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="254" Name="current energy" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="260" Name="in(i0/i1)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="266" Name="in(i1/i2)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="272" Name="in(i2/i0)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="278" Name="i0" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="284" Name="i1" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="290" Name="i2" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="308" Name="if" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="313" Name="Error Message" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="326" Name="home2 Image" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Image/home.png</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="331" Name="home2 Control" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Main.html</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="466" Name="energy" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>Absolute</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="486" Name="start time" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="492" Name="finish time" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="508" Name="cerrent queue" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>No 1</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="515" Name="current scan" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>No 1</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="590" Name="continue switch" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="79364f1f80d7409e839f2d9883f7530b">
+			<Attributed AttributedType="@fbfde06db4444ddabe087282d71359e0">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="947d6c56ec454f9ca31adc474ee0cee1">
+			<Attributed AttributedType="@c36a7587c369402c99076f34832b1e39">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::HTTP" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="411ba02a22714b4ca714fd2c84666856">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="XAS Status" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Amp Status" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="NAS Connection" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Macro Mode" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="XAS Mode" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Energy Mode" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Queue" DataType="UInt8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Scan" DataType="UInt8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Number of Queue" DataType="UInt8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Number of Scan" DataType="UInt8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="I0" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="I1" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="I2" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="If" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Fl Dead Time" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="E0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Emin" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Emax" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Percent Complete" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Currente Energy" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="In(I0/I1)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="In(I1/I2)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="If/I0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="File Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Queue Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Error Message" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Start" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Finish" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fbfde06db4444ddabe087282d71359e0">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="GET.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@2090b956de764caead228fb7889c928c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c387a4a7d3f844998f88cb904def30da">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]client handle" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@bcdceeb6666d44389c1d69aa3754c15d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]url" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@947f2bb684bc4ffd86d497c15c360f0e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@3bfb365313044a60b7b0836d7c763250">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]output file" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@77eae28198144e75859d9e88f41a188a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]status code" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@8875583b81ab42d7b9b6bbcb6aa774e9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]client handle out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@446190a82e2f47f8adcb3478b8bc9251">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]headers" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@011f9901f53445589bebd1417ca18797">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]body" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b5a29157cce547a3b903679e0170bbf2">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c36a7587c369402c99076f34832b1e39">
+			<Typedef TypedefName="Client Handle.gtype" UnderlyingType="UInt32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2090b956de764caead228fb7889c928c">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="B0" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c387a4a7d3f844998f88cb904def30da">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@947d6c56ec454f9ca31adc474ee0cee1" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bcdceeb6666d44389c1d69aa3754c15d">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="947f2bb684bc4ffd86d497c15c360f0e">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3bfb365313044a60b7b0836d7c763250">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="Path" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="77eae28198144e75859d9e88f41a188a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B1" DataType="UInt32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8875583b81ab42d7b9b6bbcb6aa774e9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@947d6c56ec454f9ca31adc474ee0cee1" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="446190a82e2f47f8adcb3478b8bc9251">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="011f9901f53445589bebd1417ca18797">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b5a29157cce547a3b903679e0170bbf2">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="NI::HTTP::GET.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.29299998 39,3.94700003 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4.08300018,39 C 2.4289999,39 1,37.6539993 1,36 L 1,3.94700003 C 1,2.29299998 2.4289999,1 4.08300018,1 L 36,1" Fill="[SMSolidColorBrush]#ffeaeaea" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.29299998 39,3.94700003 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4.08300018,39 C 2.4289999,39 1,37.6539993 1,36 L 1,3.94700003 C 1,2.29299998 2.4289999,1 4.08300018,1 L 36,1 M 36,0 L 4.08300018,0 C 1.88300002,0 0,1.74699998 0,3.94700003 L 0,36 C 0,38.2000008 1.88300002,40 4.08300018,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,3.94700003 C 40,1.74699998 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 38,36.0530014 C 38,37.1529999 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.1529999 2,36.0530014 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36.0530014 Z" Fill="[SMSolidColorBrush]#ffeaeaea" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 38,4 L 38,12 L 2,12 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 Z" Fill="[SMSolidColorBrush]#ff62af35" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 14.4139996,10 L 12.8669996,10 L 12.8669996,7.35699987 L 10.5819998,7.35699987 L 10.5819998,10 L 9.0340004,10 L 9.0340004,4 L 10.5810003,4 L 10.5810003,6.1960001 L 12.8660002,6.1960001 L 12.8660002,4 L 14.4130001,4 L 14.4130001,10 Z M 20.6389999,5.16099977 L 18.7649994,5.16099977 L 18.7649994,10 L 17.2180004,10 L 17.2180004,5.16099977 L 15.3439999,5.16099977 L 15.3439999,4 L 20.6389999,4 L 20.6389999,5.16099977 Z M 26.2649994,5.16099977 L 24.3910007,5.16099977 L 24.3910007,10 L 22.8439999,10 L 22.8439999,5.16099977 L 20.9699993,5.16099977 L 20.9699993,4 L 26.2649994,4 L 26.2649994,5.16099977 Z M 32.1479988,5.89400005 C 32.1479988,6.16300011 32.1010017,6.42500019 32.007,6.68200016 C 31.9130001,6.93900013 31.7789993,7.15399981 31.6040001,7.329 C 31.3649998,7.56500006 31.0979996,7.74399996 30.8040009,7.86499977 C 30.5100002,7.98600006 30.1439991,8.04599953 29.7059994,8.04599953 L 28.743,8.04599953 L 28.743,10 L 27.1959991,10 L 27.1959991,4 L 29.743,4 C 30.1240005,4 30.4459991,4.03299999 30.7080002,4.09899998 C 30.9699993,4.16499996 31.2019997,4.26399994 31.4029999,4.39499998 C 31.6450005,4.55299997 31.8290005,4.75600004 31.9570007,5.00299978 C 32.0839996,5.25099993 32.1479988,5.54699993 32.1479988,5.89400005 Z M 30.5480003,5.92799997 C 30.5480003,5.75899982 30.5020008,5.61399984 30.4109993,5.4920001 C 30.3199997,5.36999989 30.2140007,5.28499985 30.0930004,5.23600006 C 29.9319992,5.17199993 29.7749996,5.13600016 29.6219997,5.13000011 C 29.4689999,5.12300014 29.2649994,5.11999989 29.0100002,5.11999989 L 28.7439995,5.11999989 L 28.7439995,6.91300011 L 29.1870003,6.91300011 C 29.4500008,6.91300011 29.6669998,6.89699984 29.8379993,6.86499977 C 30.0090008,6.83300018 30.1520004,6.76900005 30.2670002,6.67199993 C 30.3659992,6.58599997 30.4379997,6.48400021 30.4829998,6.36399984 C 30.5259991,6.24499989 30.5480003,6.0999999 30.5480003,5.92799997 Z" Fill="[SMSolidColorBrush]#ffeaeaea" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 14.8299999,29.5020008 C 14.4390001,29.6539993 13.9219999,29.8059998 13.2770004,29.9559994 C 12.632,30.1060009 11.9899998,30.1819992 11.349,30.1819992 C 9.86499977,30.1819992 8.70300007,29.7789993 7.86299992,28.9720001 C 7.02299976,28.1650009 6.60300016,27.0510006 6.60300016,25.6289997 C 6.60300016,24.2740002 7.02699995,23.1809998 7.87400007,22.3509998 C 8.72099972,21.5209999 9.90299988,21.1060009 11.4189997,21.1060009 C 11.993,21.1060009 12.54,21.1580009 13.0600004,21.2609997 C 13.5799999,21.3640003 14.158,21.5709991 14.7939997,21.8789997 L 14.7939997,23.9239998 L 14.5419998,23.9239998 C 14.4329996,23.8419991 14.2720003,23.7259998 14.0620003,23.5750008 C 13.8520002,23.4239998 13.6479998,23.2970009 13.4530001,23.191 C 13.2259998,23.066 12.9619999,22.9589996 12.6590004,22.8689995 C 12.3559999,22.7789993 12.0349998,22.7339993 11.6949997,22.7339993 C 11.2969999,22.7339993 10.9350004,22.7929993 10.6110001,22.9099998 C 10.2869997,23.0270004 9.99600029,23.2070007 9.73799992,23.4489994 C 9.49199963,23.6830006 9.29800034,23.9810009 9.15499973,24.3430004 C 9.01200008,24.7049999 8.94099998,25.1210003 8.94099998,25.5939999 C 8.94099998,26.559 9.19699955,27.2970009 9.70899963,27.809 C 10.2209997,28.3209991 10.9770002,28.5769997 11.9770002,28.5769997 C 12.0629997,28.5769997 12.158,28.5750008 12.2609997,28.5709991 C 12.3640003,28.5669994 12.4589996,28.5610008 12.5450001,28.5529995 L 12.5450001,26.8419991 L 10.8050003,26.8419991 L 10.8050003,25.1959991 L 14.8299999,25.1959991 L 14.8299999,29.5020008 Z M 23.1560001,30 L 16.8449993,30 L 16.8449993,21.2749996 L 23.1560001,21.2749996 L 23.1560001,22.9629993 L 19.0839996,22.9629993 L 19.0839996,24.4689999 L 22.8630009,24.4689999 L 22.8630009,26.1569996 L 19.0839996,26.1569996 L 19.0839996,28.3129997 L 23.1560001,28.3129997 L 23.1560001,30 Z M 31.8689995,22.9629993 L 29.1439991,22.9629993 L 29.1439991,30 L 26.8939991,30 L 26.8939991,22.9629993 L 24.1700001,22.9629993 L 24.1700001,21.2749996 L 31.8689995,21.2749996 L 31.8689995,22.9629993 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

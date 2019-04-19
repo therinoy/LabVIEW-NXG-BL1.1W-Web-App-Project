@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3151637340B961F06DFF958D3FF90B6867BC584AEE1F5CFCC765BE12A9757BDFC493ECD05D80C63FD7F3B354DB68D3B17D2704E1E24FFD4AD7C1E05FDD927C66" Timestamp="1D4EAB81B34212B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4FFCF78A91ED69D29C50267BDD8C62D8EE352B7DE44CA8473496713D7054BB77073AB2BCDF537D2516AB1A6809768B5B681F00B73E7FEA13B8C32B9EE8AC3D9A" Timestamp="1D4EF7DF24C8599" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.2.49804" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -17,7 +17,6 @@
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AssociatedEnvoyId="15" Id="16" TopLevel="True" />
-			<ComponentItemProperties AssociatedEnvoyId="17" Id="19" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="27" Id="28" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="29" Id="30" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="31" Id="32" />
@@ -36,10 +35,24 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="57" Id="63" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="58" Id="64" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="59" Id="65" />
-			<ComponentItemProperties AssociatedEnvoyId="53" Id="66" TopLevel="True" />
-			<ComponentItemProperties AssociatedEnvoyId="67" Id="68" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="69" Id="71" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="70" Id="72" />
+			<ComponentItemProperties AssociatedEnvoyId="73" Id="74" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="75" Id="84" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="76" Id="85" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="77" Id="86" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="78" Id="87" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="79" Id="88" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="80" Id="89" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="81" Id="90" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="82" Id="91" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="83" Id="92" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="93" Id="94" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="95" Id="96" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="97" Id="98" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="99" Id="100" />
+			<ComponentItemProperties AssociatedEnvoyId="53" Id="101" TopLevel="True" />
+			<ComponentItemProperties AssociatedEnvoyId="67" Id="102" TopLevel="True" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -48,7 +61,6 @@
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
 				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.gviweb" />
-				<SourceFileReference Id="17" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="26" Name="Image">
 					<EmbeddedDefinitionReference Id="27" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="settings.png">
 						<ExternalFile>
@@ -150,9 +162,75 @@
 							<p.StoragePath>"Image\\home.png"</p.StoragePath>
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="75" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="audio-wave (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\audio-wave (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="76" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="audio-wave.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\audio-wave.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="77" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="combine (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\combine (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="78" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="combine.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\combine.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="79" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="led (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\led (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="80" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="led.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\led.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="81" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="satellite (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\satellite (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="82" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="satellite.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\satellite.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="83" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="settings (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\settings (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="93" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="danger.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\danger.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="95" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="heart-rate (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\heart-rate (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="97" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="chemical (1).png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\chemical (1).png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="99" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="clock.png">
+						<ExternalFile>
+							<p.StoragePath>"Image\\clock.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 				<SourceFileReference Id="53" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function_2.gviweb" />
 				<SourceFileReference Id="67" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_3.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function_3.gviweb" />
+				<SourceFileReference Id="73" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_4.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function_4.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
